@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>URA DMP2025 Fringe Events Calendar</title>
+  <style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ffffff;
+    padding: 20px 80px;
+    border-bottom: 1px solid #ccc;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  header img {
+    height: 60px; 
+    width: auto;
+  }
+
+  header strong {
+    font-size: 2rem;
+    color: #464646;
+  }
+
+  .pdf-container {
+    margin-top: 70px;
+    height: calc(100vh - 70px);
+  }
+
+  iframe {
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    display: block;
+    overflow: hidden;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <img src="ura-logo.png" alt="URA Logo" />
+    <strong>DMP2025 Fringe Events Calendar</strong>
+  </header>
+
+  <div class="pdf-container">
+    <iframe src="Frame.pdf#toolbar=0"></iframe>
+  </div>
+  <script>
+    const CHECK_INTERVAL = 1800000; // check every 30 minutes (30 × 60,000 ms)
+    let currentVersion = null;
+
+    async function checkVersion() {
+      try {
+        const response = await fetch('version.json', { cache: 'no-store' });
+        const latestVersion = await response.text();
+
+        if (currentVersion === null) {
+          currentVersion = latestVersion.trim();
+        } else if (latestVersion.trim() !== currentVersion) {
+          console.log('New version detected, reloading...');
+          location.reload(true);
+        }
+      } catch (e) {
+        console.error('Version check failed:', e);
+      }
+    }
+
+    setInterval(checkVersion, CHECK_INTERVAL);
+  </script>
+</body>
+</html>
