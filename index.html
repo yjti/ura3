@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>URA DMP2025 Fringe Events Calendar</title>
+  <title>URA DMP2025 Fringe Events</title>
   <style>
   html, body {
     margin: 0;
@@ -16,23 +16,42 @@
     top: 0;
     width: 100%;
     background: #ffffff;
-    padding: 20px 80px;
+    padding: 50px 80px;
     border-bottom: 1px solid #ccc;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 24px;
+  }
+  
+  .header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+   
+  .title-block {
+  display: flex;
+  flex-direction: column;
   }
 
   header img {
-    height: 60px; 
+    height: 100px; 
     width: auto;
   }
 
   header strong {
-    font-size: 2rem;
+    font-size: 3.2rem;
     color: #464646;
+    line-height: 1.2;
+  }
+  
+  .subtitle {
+  font-size: 1rem;
+  color: #666;
+  font-style: italic;
+  margin-top: 4px;
   }
 
   .pdf-container {
@@ -52,7 +71,12 @@
 <body>
   <header>
     <img src="ura-logo.png" alt="URA Logo" />
-    <strong>DMP2025 Fringe Events Calendar</strong>
+    <div class="header-text">
+      <div class="title-block">
+        <strong>DMP2025 Fringe Events</strong>
+        <span class="subtitle"><em>Join our activities! Discover upcoming fringe events where you can learn, experience, and contribute to the Draft Master Plan 2025.</em></span>
+      </div>
+    </div>
   </header>
 
   <div class="pdf-container">
