@@ -1,0 +1,200 @@
+[
+  {
+    "title": "Waves of Wellness @ Marina Central",
+    "description": "Join Waves of Wellness 2025 in Marina Central for two weeks of free workouts, crafts and a special Stride & Seek Game.",
+    "image": "event-pictures/event1.jpeg",
+    "qr": "event-qr/qr1.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-07-19",
+    "endDate": "2025-08-09",
+    "type": "Activity", 
+    "status": "available" 
+  },
+  {
+    "title": "URA-FOM Tour: Stewarding Nature & Heritage in Tanjong Pagar",
+    "description": "Explore how Tanjong Pagar evolved from a port town to green urban district while preserving its heritage and nature.",
+    "image": "event-pictures/event2.jpg",
+    "qr": "event-qr/qr2.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-15",
+    "endDate": "2025-08-29",
+    "type": "Guided Tour",
+    "status": "sold-out"
+  },
+  {
+    "title": "Self-guided Toa Payoh Heritage Trail",
+    "description": "Explore Toa Payoh's iconic landmarks through a heritage trail. Visit us to redeem exclusive prizes (while stocks last)!",
+    "image": "event-pictures/event3.jpg",
+    "qr": "event-qr/qr3.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-15",
+    "endDate": "2025-08-29",
+    "type": "Self Guided Tour",
+    "status": "information"
+  },
+  {
+    "title": "A guided tour of New Bahru",
+    "description": "A walk through New Bahru—where its cherished heritage is thoughtfully woven into a new purpose for today. Explore Singapore's first creative cluster built upon the old bones of the former Nan Chiau High School.",
+    "image": "event-pictures/event4.jpg",
+    "qr": "event-qr/qr4.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-08",
+    "endDate": "2025-08-08",
+    "type": "Guided Tour",
+    "status": "sold-out"
+  },
+  {
+    "title": "Fort Canning Park: \nTrees of the Fort Tour",
+    "description": "Discover unique trees! See giant Kapok, Banyan roots, record Madras Thorn & upsidedown Baobab on this park tour.",
+    "image": "event-pictures/event5.jpg",
+    "qr": "event-qr/qr5.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-09",
+    "endDate": "2025-08-09",
+    "type": "Guided Tour",
+    "status": "available"
+  },
+  {
+    "title": "North-South Corridor Master Plan Pop-up @ \nToa Payoh Hub",
+    "description": "Visit our booth at Toa Payoh Hub to learn about & share views on the North-South Corridor Surface Streets Master Plan!",
+    "image": "event-pictures/event6.jpg",
+    "qr": "event-qr/qr6.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-09",
+    "endDate": "2025-08-10",
+    "type": "Activity",
+    "status": "available"
+  },
+  {
+    "title": "Craft Workshop: \nMarina East Edition",
+    "description": "Learn about Singapore's planning & design Marina East's future through a 1hr hands-on workshop at NLB on 9 Aug, 3pm!",
+    "image": "event-pictures/event7.jpg",
+    "qr": "event-qr/qr7.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-09",
+    "endDate": "2025-08-09",
+    "type": "Workshop",
+    "status": "available"
+  },
+  {
+    "title": "Fort Canning Park: \nHeritage on the Hill tour",
+    "description": "Explore Fort Canning's journey from the 14th century to the Colonial Era! Discover ancient artefacts and its evolution.",
+    "image": "event-pictures/event8.jpg",
+    "qr": "event-qr/qr8.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-09",
+    "endDate": "2025-08-09",
+    "type": "Guided Tour",
+    "status": "available"
+  },
+  {
+    "title": "Reimagine the Newton Flyover and Viaduct space!",
+    "description": "Design Newton flyover and viaduct space through a collaborative design and sticker colouring session!",
+    "image": "event-pictures/event9.jpg",
+    "qr": "event-qr/qr9.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-10",
+    "endDate": "2025-08-10",
+    "type": "Workshop",
+    "status": "available"
+  },
+  {
+    "title": "Designing our Tomorrow: Craft Workshop & \nGallery Tour",
+    "description": "Design your 'Long Island' & tour Sustainable Singapore Gallery! Workshop venus @ Toa Payoh Hub",
+    "image": "event-pictures/event10.jpg",
+    "qr": "event-qr/qr10.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-10",
+    "endDate": "2025-08-10",
+    "type": "Workshop",
+    "status": "sold-out"
+  },
+  {
+    "title": "Guided tour of Bidadari Park and Woodleigh Hillside Estate",
+    "description": "Explore Bidadari Park's Pooh-inspired charm and discover how this estate was designed as a \"Community in a Garden\"",
+    "image": "event-pictures/event11.jpg",
+    "qr": "event-qr/qr11.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-14",
+    "endDate": "2025-08-14",
+    "type": "Guided Tour",
+    "status": "sold-out"
+  },
+  {
+    "title": "Guided tour of MOE’s Heritage Centre",
+    "description": "Discover Singapore's education story at MOE Heritage Centre! See how schools evolved through interactive displays.",
+    "image": "event-pictures/event12.jpg",
+    "qr": "event-qr/qr12.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-15",
+    "endDate": "2025-08-15",
+    "type": "Guided Tour",
+    "status": "sold-out"
+  },
+  {
+    "title": "Harmony in Diversity: \nArtsEverywhere @ CDC",
+    "description": "Experience Bharatanatyam & Joget dance culture! Join performances & interactive workshops.",
+    "image": "event-pictures/event13.jpg",
+    "qr": "event-qr/qr13.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-16",
+    "endDate": "2025-08-16",
+    "type": "Activity",
+    "status": "available"
+  },
+  {
+    "title": "Building Homes with the Environment in Mind",
+    "description": "Discover how HDB plans liveable and sustainable homes while balancing Singapore's diverse land needs.",
+    "image": "event-pictures/event14.jpg",
+    "qr": "event-qr/qr14.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-16",
+    "endDate": "2025-08-16",
+    "type": "Guided Tour",
+    "status": "available"
+  },
+  {
+    "title": "Designing our Tomorrow: Coastal Crafts Workshop & Gallery Tour",
+    "description": "Design your 'Long Island' & tour Sustainable Singapore Gallery! Workshop venus @ Toa Payoh Hub",
+    "image": "event-pictures/event15.jpg",
+    "qr": "event-qr/qr15.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-16",
+    "endDate": "2025-08-16",
+    "type": "Workshop",
+    "status": "available"
+  },
+  {
+    "title": "North-South Corridor Master Plan Pop-up @ \nToa Payoh Hub",
+    "description": "Visit our booth at Toa Payoh Hub to learn about & share views on the North-South Corridor Surface Streets Master Plan!",
+    "image": "event-pictures/event6.jpg",
+    "qr": "event-qr/qr16.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-16",
+    "endDate": "2025-08-16",
+    "type": "Activity",
+    "status": "available"
+  },
+  {
+    "title": "Crafts Workshop: \nWoodlands Waterfront Edition",
+    "description": "Be city planners for a day! Join this fun 1hr workshop to design Woodlands Waterfront town with your family.",
+    "image": "event-pictures/event17.jpeg",
+    "qr": "event-qr/qr17.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-19",
+    "endDate": "2025-08-31",
+    "type": "Workshop",
+    "status": "available"
+  },
+  {
+    "title": "Guided tours of Mangroves at Pasir Ris Park",
+    "description": "Join our guided Pasir Ris mangrove walk! Spot herons, mudskippers & crabs while learning about unique root systems.",
+    "image": "event-pictures/event18.jpeg",
+    "qr": "event-qr/qr18.png",
+    "soldOutQr": "event-qr/qr-sold-out.png",
+    "date": "2025-08-20",
+    "endDate": "2025-08-20",
+    "type": "Guided Tour",
+    "status": "waitlist"
+  }
+]

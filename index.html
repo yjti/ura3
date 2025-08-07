@@ -4,69 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>URA DMP2025 Fringe Events</title>
-  <style>
-  html, body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-  }
-
-  header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #ffffff;
-    padding: 50px 80px;
-    border-bottom: 1px solid #ccc;
-    z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    display: flex;
-    align-items: center;
-    gap: 24px;
-  }
-  
-  .header-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  }
-   
-  .title-block {
-  display: flex;
-  flex-direction: column;
-  }
-
-  header img {
-    height: 100px; 
-    width: auto;
-  }
-
-  header strong {
-    font-size: 3.2rem;
-    color: #464646;
-    line-height: 1.2;
-  }
-  
-  .subtitle {
-  font-size: 1rem;
-  color: #666;
-  font-style: italic;
-  margin-top: 4px;
-  }
-
-  .pdf-container {
-    margin-top: 70px;
-    height: calc(100vh - 70px);
-  }
-
-  iframe {
-    width: 100vw;
-    height: 100vh;
-    border: none;
-    display: block;
-    overflow: hidden;
-  }
-</style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
@@ -79,11 +17,11 @@
     </div>
   </header>
 
-  <div class="pdf-container">
-    <iframe src="Frame.pdf#toolbar=0"></iframe>
-  </div>
+  <main class="event-list" id="eventList"></main>
+  
   <script>
-    const CHECK_INTERVAL = 1800000; // check every 30 minutes (30 × 60,000 ms)
+    // Live reload every 30 mins
+    const CHECK_INTERVAL = 1800000; 
     let currentVersion = null;
 
     async function checkVersion() {
@@ -103,6 +41,116 @@
     }
 
     setInterval(checkVersion, CHECK_INTERVAL);
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      loadEvents();
+    });
+
+    async function loadEvents() {
+      const response = await fetch("events.json");
+      const events = await response.json();
+      const container = document.getElementById("eventList");
+      const today = new Date();
+
+      events.forEach(event => {
+        const endDate = new Date(event.endDate + "T23:59:59");
+
+        if (today > endDate) return; // Skip past events
+
+        const card = document.createElement("div");
+        card.className = "event-card";
+        card.setAttribute("data-status", event.status);
+
+        const status = event.status;
+        let bgColor = "#02a630"; // default (sign-ups open)
+        let labelColor = "";
+        let labelTextColor = "";
+        let labelText = "Sign-Ups Open";
+        let qrImage = event.qr;
+
+        if (status === "sold-out") {
+          bgColor = "#d72c11";
+          labelColor = "#710000";
+          labelTextColor = "#ffffff";
+          labelText = "Sold Out";
+          qrImage = event.soldOutQr;
+        } else if (status === "waitlist") {
+          bgColor = "#ff9500";
+          labelColor = "#b25c00";
+          labelTextColor = "#ffffff";
+          labelText = "Join Waitlist";
+          qrImage = event.qr; 
+        } else if (status === "information") {
+          bgColor = "#02a630";
+          labelColor = "";
+          labelTextColor = "";
+          labelText = "Information";
+          qrImage = event.qr; 
+        }
+
+        card.innerHTML = `
+          <div class="image-container">
+            <img src="${event.image}" alt="${event.title}" class="event-image" />
+          </div>
+          <div class="event-details">
+            <div class="event-top">
+              <div class="event-tags">
+                <span class="tag date">${formatDateRange(event.date, event.endDate)}</span>
+                <span class="tag type type-${event.type.toLowerCase().replace(/\s+/g, '-')}">
+                  ${formatType(event.type)}
+              </div>
+            </div>
+            <div class="event-middle">
+              <h2 class="event-title">${event.title}</h2>
+              <p class="event-description">${event.description}</p>
+            </div>
+          </div>
+          <div class="qr-container" style="background-color: ${bgColor}">
+            <span class="qr-label" style="background-color: ${labelColor}; color: ${labelTextColor};">${labelText}</span>
+            <img src="${qrImage}" class="qr-code" />
+          </div>
+        `;
+
+        container.appendChild(card);
+      });
+        const extraCard = document.createElement("div");
+        extraCard.className = "event-card special-card";
+        extraCard.innerHTML = `
+          <div class="special-card-content">
+            <div class="special-card-text">
+              <h2>Still looking?</h2>
+              <p>Scan the QR Code to view our full Fringe Events Calendar</p>
+            </div>
+            <div class="special-card-qr">
+              <img src="event-qr/qr-full-calendar.png" alt="Full Calendar QR" />
+            </div>
+          </div>
+        `;
+        container.appendChild(extraCard);
+
+    }
+    function formatDateRange(start, end) {
+      const startDate = new Date(start);
+      const endDate = new Date(end);
+
+      const startStr = formatDate(start);
+      const endStr = formatDate(end);
+
+      return startStr === endStr ? startStr : `${startStr} – ${endStr}`;
+    }
+    function formatDate(dateStr) {
+      const options = { day: '2-digit', month: 'short' };
+      return new Date(dateStr).toLocaleDateString('en-GB', options);
+    }
+    function formatType(type) {
+      return type
+        .split(/(?=[A-Z])|[\s_-]/) // split camelCase or snake_case or kebab-case
+        .filter(Boolean)
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+    }
   </script>
 </body>
 </html>
