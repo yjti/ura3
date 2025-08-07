@@ -137,6 +137,26 @@
         `;
         container.appendChild(extraCard);
 
+        // Animate cards into view
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("animate");
+              entry.target.classList.remove("animate-out");
+            } else {
+              entry.target.classList.remove("animate");
+              entry.target.classList.add("animate-out");
+            }
+          });
+        }, {
+          threshold: 0.1
+        });
+
+        // Observe each card
+        document.querySelectorAll('.event-card').forEach(card => {
+          observer.observe(card);
+        });
+
     }
     function formatDateRange(start, end) {
       const startDate = new Date(start);

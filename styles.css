@@ -138,7 +138,50 @@ html, body {
   margin: 0;
   align-items: stretch;
   min-height: 400px;
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+  will-change: transform, opacity;
 }
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.event-card.animate {
+  animation: scaleUp 0.8s ease-out forwards;
+}
+
+@keyframes scaleDown {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+}
+
+.event-card.animate-out {
+  animation: scaleDown 0.9s ease-in forwards;
+}
+
+.event-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.event-card:nth-child(1) { transition-delay: 0s; }
+.event-card:nth-child(2) { transition-delay: 0.5s; }
+.event-card:nth-child(3) { transition-delay: 1s; }
 
 .image-container {
   width: 400px;
