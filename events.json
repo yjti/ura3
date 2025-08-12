@@ -1,6 +1,6 @@
 
 {
-  "cutoffDate": "2025-08-20",
+  "cutoffDate": "2025-08-31",
   "events": [
     {
       "title": "Waves of Wellness @ Marina Central",
@@ -199,7 +199,151 @@
       "endDate": "2025-08-20",
       "type": "Guided Tour",
       "status": "waitlist"
+    },
+    {
+      "title": "Self-guided tour of Sembawang Heritage Trail",
+      "description": "Discover Sembawang through a heritage trail. Snap selfies and get exclusive prizes at Causeway Point while stocks lasts!",
+      "image": "event-pictures/event18a.jpg",
+      "qr": "event-qr/qr18a.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-19",
+      "endDate": "2025-08-31",
+      "type": "Self Guided Tour",
+      "status": "information"
+    },
+    {
+      "title": "Self-guided tour of Woodlands Heritage Trail",
+      "description": "Discover Woodlands through a heritage trail. Snap a selfie and get exclusive prizes at Causeway Point while stocks last!",
+      "image": "event-pictures/event18b.jpg",
+      "qr": "event-qr/qr18b.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-19",
+      "endDate": "2025-08-31",
+      "type": "Self Guided Tour",
+      "status": "information"
+    },
+    {
+      "title": "Self-guided tour of Northern Explorer Loop",
+      "description": "Explore parks along the Northern Explorer Loop. Snap selfies to get exclusive prizes at Causeway Point while stocks last!",
+      "image": "event-pictures/event18c.jpg",
+      "qr": "event-qr/qr18c.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-19",
+      "endDate": "2025-08-31",
+      "type": "Self Guided Tour",
+      "status": "information"
+    },
+    {
+      "title": "Sun Plaza Park: Therapeutic Garden Activity",
+      "description": "Join therapeutic horticulture sessions: Guided nature activities to boost wellbeing through gardening.",
+      "image": "event-pictures/event19.jpg",
+      "qr": "event-qr/qr19.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-20",
+      "endDate": "2025-08-20",
+      "type": "Activity",
+      "status": "available"
+    },
+    {
+      "title": "Dream Storeys by Clara Chow (Singapore Literature Book Club)",
+      "description": "Meet Clara Chow and discuss her novel that turns the ideas of real urban visionaries into inventive short stories.",
+      "image": "event-pictures/event20.jpg",
+      "qr": "event-qr/qr20.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-21",
+      "endDate": "2025-08-21",
+      "type": "Activity",
+      "status": "available"
+    },
+    {
+      "title": "Coastal Crafts Workshop & Singapore Sustainability Gallery Tour",
+      "description": "Design your 'Long Island' & tour Sustainable Singapore Gallery! Workshop @ Our Tampines Hub.",
+      "image": "event-pictures/event21.jpg",
+      "qr": "event-qr/qr21.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-22",
+      "endDate": "2025-08-22",
+      "type": "Activity",
+      "status": "available"
+    },
+    {
+      "title": "Coastal Crafts Workshop & Singapore Sustainability Gallery Tour",
+      "description": "Design your 'Long Island' & tour Sustainable Singapore Gallery! Workshop @ Our Tampines Hub.",
+      "image": "event-pictures/event22.jpg",
+      "qr": "event-qr/qr22.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-23",
+      "endDate": "2025-08-23",
+      "type": "Activity",
+      "status": "available"
+    },
+    {
+      "title": "Guided Tour of sports facilities in Bukit Canberra",
+      "description": "Bukit Canberra, a 12ha hub near Sembawang MRT, offers diverse sports and wellness facilities. Come join us on a tour!",
+      "image": "event-pictures/event23.jpg",
+      "qr": "event-qr/qr23.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-23",
+      "endDate": "2025-08-23",
+      "type": "Guided Tour",
+      "status": "available"
+    },
+    {
+      "title": "North-South Corridor Master Plan Pop-up @ Causeway Point",
+      "description": "Visit our booth at Causeway Point to learn about & share views on the North-South Corridor Surface Streets Master Plan!",
+      "image": "event-pictures/event24.jpg",
+      "qr": "event-qr/qr24.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-23",
+      "endDate": "2025-08-23",
+      "type": "Activity",
+      "status": "information"
+    },
+    {
+      "title": "Paper Paradise @ URA Gallery",
+      "description": "Kids 7-12: Design 'Long Island' with AI! Join our parent-child holiday workshop to explore Singapore's future planning.",
+      "image": "event-pictures/event7.jpg",
+      "qr": "event-qr/qr25.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-23",
+      "endDate": "2025-08-23",
+      "type": "Workshop",
+      "status": "available"
+    },
+    {
+      "title": "Sungei Buloh Tour: \nWhat's in my Water?",
+      "description": "Explore Sungei Buloh's waterways! Discover fascinating plants & wildlife on our morning nature walk.",
+      "image": "event-pictures/event26.jpg",
+      "qr": "event-qr/qr26.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-23",
+      "endDate": "2025-08-23",
+      "type": "Guided Tour",
+      "status": "available"
+    },
+    {
+      "title": "Award ceremony for the Visions of the Sembawang Shipyard Competition",
+      "description": "Join us for \"Visions of Sembawang Shipyard\" Poetry Competition awards ceremony & public reading of winning poems!",
+      "image": "event-pictures/event27.jpg",
+      "qr": "event-qr/qr27.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-24",
+      "endDate": "2025-08-24",
+      "type": "Activity",
+      "status": "available"
+    },
+    {
+      "title": "Tampines Transformed: Rejuvenate Your Regional Hub!",
+      "description": "Shape TRC's future! Join URA planners for a walking tour to create a more vibrant Tampines town centre",
+      "image": "event-pictures/event28.jpg",
+      "qr": "event-qr/qr28.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-24",
+      "endDate": "2025-08-24",
+      "type": "Guided Tour",
+      "status": "sold-out"
     }
+    
   ]
 }
 
