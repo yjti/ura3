@@ -1,6 +1,6 @@
 
 {
-  "cutoffDate": "2025-08-20",
+  "cutoffDate": "2025-09-02",
   "events": [
     {
       "title": "Waves of Wellness @ Marina Central",
@@ -198,7 +198,7 @@
       "date": "2025-08-20",
       "endDate": "2025-08-20",
       "type": "Guided Tour",
-      "status": "sold-out"
+      "status": "remove"
     },
     {
       "title": "Self-guided tour of Sembawang Heritage Trail",
@@ -220,7 +220,7 @@
       "date": "2025-08-19",
       "endDate": "2025-08-31",
       "type": "Self Guided Tour",
-      "status": "information"
+      "status": "remove"
     },
     {
       "title": "Self-guided tour of Northern Explorer Loop",
@@ -242,7 +242,7 @@
       "date": "2025-08-20",
       "endDate": "2025-08-20",
       "type": "Activity",
-      "status": "sold-out"
+      "status": "remove"
     },
     {
       "title": "Dream Storeys by Clara Chow (Singapore Literature Book Club)",
@@ -319,13 +319,24 @@
       "date": "2025-08-23",
       "endDate": "2025-08-23",
       "type": "Guided Tour",
+      "status": "waitlist"
+    },
+    {
+      "title": "Visioning workshop for former Singapore Racecourse",
+      "description": "Sign up to be a part of this Focus Group Discussion to share ideas on the planning for the former Singapore Racecourse!",
+      "image": "event-pictures/event27.jpg",
+      "qr": "event-qr/qr27.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-23",
+      "endDate": "2025-08-23",
+      "type": "Workshop",
       "status": "available"
     },
     {
       "title": "Award ceremony for the Visions of the Sembawang Shipyard Competition",
       "description": "Join us for \"Visions of Sembawang Shipyard\" Poetry Competition awards ceremony & public reading of winning poems!",
-      "image": "event-pictures/event27.jpg",
-      "qr": "event-qr/qr27.png",
+      "image": "event-pictures/event28.jpg",
+      "qr": "event-qr/qr28.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
       "date": "2025-08-24",
       "endDate": "2025-08-24",
@@ -335,13 +346,101 @@
     {
       "title": "Tampines Transformed: Rejuvenate Your Regional Hub!",
       "description": "Shape TRC's future! Join URA planners for a walking tour to create a more vibrant Tampines town centre",
-      "image": "event-pictures/event28.jpg",
-      "qr": "event-qr/qr28.png",
+      "image": "event-pictures/event29.jpg",
+      "qr": "event-qr/qr29.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
       "date": "2025-08-24",
       "endDate": "2025-08-24",
       "type": "Guided Tour",
-      "status": "sold-out"
+      "status": "remove"
+    },
+    {
+      "title": "From Eye Level to High Level: Urban Planning in Bedok",
+      "description": "Join URA's planners on this Bedok walking tour to learn more about how planners work with the community and stakeholders!",
+      "image": "event-pictures/event34.jpg",
+      "qr": "event-qr/qr34.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-31",
+      "endDate": "2025-08-31",
+      "type": "Guided Tour",
+      "status": "remove"
+    },
+    {
+      "title": "Biodiversity Walk at Lim Chu Kang Nature Park/Cashin House",
+      "description": "Join us on a family-friendly walk in Lim Chu Kang! Explore rubber plantations, mangroves & Cashin House!",
+      "image": "event-pictures/event30.jpg",
+      "qr": "event-qr/qr30.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-26",
+      "endDate": "2025-08-26",
+      "type": "Guided Tour",
+      "status": "available"
+    },
+    {
+      "title": "Design & Build Workshop: Craft A Coastal Neighbourhood Protected Against Rising Seas",
+      "description": "Envision, design & build a coastal neighbourhood that combines vibrant community spaces with coastal protection solutions.",
+      "image": "event-pictures/event31.jpg",
+      "qr": "event-qr/qr31.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-29",
+      "endDate": "2025-08-29",
+      "type": "Workshop",
+      "status": "available"
+    },
+    {
+      "title": "DMP25 x SG60 x PAssion Wave Cycling tour",
+      "description": "Cycle from PAssion Wave to Sembawang Hot Spring Park! Join our SG60 celebration on this scenic 3-hour round trip.",
+      "image": "event-pictures/event32.jpg",
+      "qr": "event-qr/qr32.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-30",
+      "endDate": "2025-08-30",
+      "type": "Guided Tour",
+      "status": "available"
+    },
+    {
+      "title": "DMP25 x SG60 x PAssion Wave Walking Heritage Tour",
+      "description": "Explore historic Kampong Wak Hassan! Walk coastal paths, see heritage bungalows & end at PAssion Wave for sea views.",
+      "image": "event-pictures/event33.jpg",
+      "qr": "event-qr/qr33.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-30",
+      "endDate": "2025-08-30",
+      "type": "Guided Tour",
+      "status": "available"
+    },
+    {
+      "title": "North-South Corridor Master Plan Pop-up @ Causeway Point",
+      "description": "Want to learn more about the North-South Corridor Surface Streets Master Plan and share your views? Come visit our booth at Causeway Point!",
+      "image": "event-pictures/event35.jpg",
+      "qr": "event-qr/qr35.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-30",
+      "endDate": "2025-08-30",
+      "type": "Activity",
+      "status": "information"
+    },
+    {
+      "title": "DMP25 x SG60 x PAssion Wave Cycling tour",
+      "description": "Cycle from PAssion Wave to Sembawang Hot Spring Park! Join our SG60 celebration on this scenic 3-hour round trip.",
+      "image": "event-pictures/event36.jpg",
+      "qr": "event-qr/qr36.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-31",
+      "endDate": "2025-08-31",
+      "type": "Guided Tour",
+      "status": "available"
+    },
+    {
+      "title": "DMP25 x SG60 x PAssion Wave Walking Heritage Tour",
+      "description": "Explore historic Kampong Wak Hassan! Walk coastal paths, see heritage bungalows & end at PAssion Wave for sea views.",
+      "image": "event-pictures/event37.jpg",
+      "qr": "event-qr/qr37.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-31",
+      "endDate": "2025-08-31",
+      "type": "Guided Tour",
+      "status": "available"
     }
     
   ]
