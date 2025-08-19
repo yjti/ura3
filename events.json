@@ -286,7 +286,7 @@
       "date": "2025-08-23",
       "endDate": "2025-08-23",
       "type": "Guided Tour",
-      "status": "sold-out"
+      "status": "available"
     },
     {
       "title": "North-South Corridor Master Plan Pop-up @ Causeway Point",
@@ -374,10 +374,10 @@
       "date": "2025-08-26",
       "endDate": "2025-08-26",
       "type": "Guided Tour",
-      "status": "available"
+      "status": "sold-out"
     },
     {
-      "title": "Design & Build Workshop: Craft A Coastal Neighbourhood Protected Against Rising Seas",
+      "title": "Workshop: Craft A Coastal Neighbourhood Protected Against Rising Seas",
       "description": "Envision, design & build a coastal neighbourhood that combines vibrant community spaces with coastal protection solutions.",
       "image": "event-pictures/event31.jpg",
       "qr": "event-qr/qr31.png",
