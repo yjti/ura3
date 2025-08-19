@@ -209,7 +209,8 @@
       "date": "2025-08-19",
       "endDate": "2025-08-31",
       "type": "Self Guided Tour",
-      "status": "information"
+      "status": "information",
+      "featured": true
     },
     {
       "title": "Self-guided tour of Woodlands Heritage Trail",
@@ -220,7 +221,8 @@
       "date": "2025-08-19",
       "endDate": "2025-08-31",
       "type": "Self Guided Tour",
-      "status": "remove"
+      "status": "information",
+      "featured": true
     },
     {
       "title": "Self-guided tour of Northern Explorer Loop",
@@ -231,7 +233,8 @@
       "date": "2025-08-19",
       "endDate": "2025-08-31",
       "type": "Self Guided Tour",
-      "status": "information"
+      "status": "information",
+      "featured": true
     },
     {
       "title": "Sun Plaza Park: Therapeutic Garden Activity",

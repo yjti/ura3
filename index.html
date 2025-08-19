@@ -16,30 +16,8 @@
       </div>
     </div>
   </header>
-  <section class="pinned-card">
-      <div class="image-container-pinned">
-            <img src="/event-pictures/event18b.jpg" alt="Self-guided tour of Woodlands Heritage Trail" class="event-image" />
-          </div>
-          <div class="event-details">
-            <div class="event-top">
-              <div class="event-tags">
-                <span class="tag date" style="background-color: #fcfcfc; color: #070707">Featured</span>
-                <span class="tag date">Aug 19 - Aug 31</span>
-                <span class="tag type type-self-guided-tour">
-                  Self Guided Tour
-              </div>
-            </div>
-            <div class="event-middle">
-              <h2 class="event-title" style="color: #fcfcfc">Self-guided tour of Woodlands Heritage Trail</h2>
-              <p class="event-description" style="color: #fcfcfc">Discover Woodlands through a heritage trail. Snap a selfie and get exclusive prizes at Causeway Point while stocks last!</p>
-            </div>
-          </div>
-          <div class="qr-container-pinned" style="background-color: transparent">
-            <span class="qr-label" style="background-color: #fcfcfc; color: #353200;">Information</span>
-            <img src="/event-qr/qr18b.png" class="qr-code" />
-          </div>
-    </section>
-
+  <!-- Was: <section class="pinned-card">...</section> -->
+  <section id="featured" class="pinned-card carousel"></section>
   <main class="event-list" id="eventList"></main>
   
   <script>
@@ -77,6 +55,16 @@
       const events = data.events;
       const cutoffDate = new Date(data.cutoffDate);
 
+      // 1) Build the featured carousel at the top
+      buildFeaturedCarousel({
+        events,
+        cutoffDate,
+        mount: document.getElementById("featured"),
+        maxSlides: 3,
+        intervalMs: 15000
+      });
+
+      // 2) Render the normal list cards
       const container = document.getElementById("eventList");
       const today = new Date();
 
@@ -84,41 +72,24 @@
         const endDate = new Date(event.endDate + "T23:59:59");
         const startDate = new Date(event.date + "T00:00:00");
 
-        if (today > endDate) return; // Skip past events
+        if (today > endDate) return;           // past
+        if (startDate > cutoffDate) return;    // after cutoff
+        if ((event.status || "").toLowerCase() === "remove") return;
 
-        if (startDate > cutoffDate) return;
+        // label colors
+        let bgColor = "#02a630", labelColor = "", labelTextColor = "", labelText = "Sign-Ups Open", qrImage = event.qr;
+        const status = (event.status || "").toLowerCase();
+        if (status === "sold-out") {
+          bgColor = "#d72c11"; labelColor = "#710000"; labelTextColor = "#ffffff"; labelText = "Sold Out"; qrImage = event.soldOutQr || event.qr;
+        } else if (status === "waitlist") {
+          bgColor = "#ff9500"; labelColor = "#b25c00"; labelTextColor = "#ffffff"; labelText = "Join Waitlist";
+        } else if (status === "information") {
+          bgColor = "#02a630"; labelColor = ""; labelTextColor = ""; labelText = "Information";
+        }
 
         const card = document.createElement("div");
         card.className = "event-card";
-        card.setAttribute("data-status", event.status);
-
-        const status = event.status;
-        if (["remove"].includes(status)) return;
-        let bgColor = "#02a630"; // default (sign-ups open)
-        let labelColor = "";
-        let labelTextColor = "";
-        let labelText = "Sign-Ups Open";
-        let qrImage = event.qr;
-
-        if (status === "sold-out") {
-          bgColor = "#d72c11";
-          labelColor = "#710000";
-          labelTextColor = "#ffffff";
-          labelText = "Sold Out";
-          qrImage = event.soldOutQr;
-        } else if (status === "waitlist") {
-          bgColor = "#ff9500";
-          labelColor = "#b25c00";
-          labelTextColor = "#ffffff";
-          labelText = "Join Waitlist";
-          qrImage = event.qr; 
-        } else if (status === "information") {
-          bgColor = "#02a630";
-          labelColor = "";
-          labelTextColor = "";
-          labelText = "Information";
-          qrImage = event.qr; 
-        }
+        card.setAttribute("data-status", status);
 
         card.innerHTML = `
           <div class="image-container">
@@ -128,8 +99,7 @@
             <div class="event-top">
               <div class="event-tags">
                 <span class="tag date">${formatDateRange(event.date, event.endDate)}</span>
-                <span class="tag type type-${event.type.toLowerCase().replace(/\s+/g, '-')}">
-                  ${formatType(event.type)}
+                <span class="tag type type-${event.type.toLowerCase().replace(/\s+/g, '-')}">${formatType(event.type)}</span>
               </div>
             </div>
             <div class="event-middle">
@@ -137,70 +107,181 @@
               <p class="event-description">${event.description}</p>
             </div>
           </div>
-          <div class="qr-container" style="background-color: ${bgColor}">
-            <span class="qr-label" style="background-color: ${labelColor}; color: ${labelTextColor};">${labelText}</span>
+          <div class="qr-container" style="background-color:${bgColor}">
+            <span class="qr-label" style="background-color:${labelColor}; color:${labelTextColor};">${labelText}</span>
             <img src="${qrImage}" class="qr-code" />
           </div>
         `;
-
         container.appendChild(card);
       });
-        const extraCard = document.createElement("div");
-        extraCard.className = "event-card special-card";
-        extraCard.innerHTML = `
-          <div class="special-card-content">
-            <div class="special-card-text">
-              <h2>Still looking?</h2>
-              <p>Scan the QR Code to view our full Fringe Events Calendar</p>
-            </div>
-            <div class="special-card-qr">
-              <img src="event-qr/qr-full-calendar.png" alt="Full Calendar QR" />
-            </div>
+
+      // Optional: your “Still looking?” special card
+      const extraCard = document.createElement("div");
+      extraCard.className = "event-card special-card";
+      extraCard.innerHTML = `
+        <div class="special-card-content">
+          <div class="special-card-text">
+            <h2>Still looking?</h2>
+            <p>Scan the QR Code to view our full Fringe Events Calendar</p>
           </div>
-        `;
-        container.appendChild(extraCard);
+          <div class="special-card-qr">
+            <img src="event-qr/qr-full-calendar.png" alt="Full Calendar QR" />
+          </div>
+        </div>
+      `;
+      container.appendChild(extraCard);
 
-        // Animate cards into view
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add("animate");
-              entry.target.classList.remove("animate-out");
-            } else {
-              entry.target.classList.remove("animate");
-              entry.target.classList.add("animate-out");
-            }
-          });
-        }, {
-          threshold: 0.1
+      // Animate cards into view (your existing observer)
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("animate");
+            entry.target.classList.remove("animate-out");
+          } else {
+            entry.target.classList.remove("animate");
+            entry.target.classList.add("animate-out");
+          }
         });
+      }, { threshold: 0.1 });
 
-        // Observe each card
-        document.querySelectorAll('.event-card').forEach(card => {
-          observer.observe(card);
-        });
-
+      document.querySelectorAll('.event-card').forEach(card => observer.observe(card));
     }
+
+    /* === Featured carousel builder === */
+    function buildFeaturedCarousel({ events, cutoffDate, mount, maxSlides = 3, intervalMs = 6000 }) {
+      if (!mount) return;
+
+      const today = new Date();
+      const featured = events
+        .filter(e => e.featured === true)
+        .filter(e => {
+          const start = new Date(e.date + "T00:00:00");
+          const end   = new Date(e.endDate + "T23:59:59");
+          const status = (e.status || "").toLowerCase();
+          if (today > end) return false;
+          if (start > cutoffDate) return false;
+          if (status === "remove") return false;
+          return true;
+        })
+        .slice(0, maxSlides);
+
+      if (featured.length === 0) { mount.style.display = "none"; return; }
+
+      mount.innerHTML = `
+        <div class="featured-track">
+          ${featured.map((ev,i) => featuredSlideHTML(ev, i===0)).join("")}
+        </div>
+        <div class="featured-dots">
+          ${featured.map((_,i)=>`<button class="dot ${i===0?'is-active':''}" data-i="${i}" aria-label="Slide ${i+1}"></button>`).join("")}
+        </div>
+      `;
+
+      const slides = [...mount.querySelectorAll('.featured-slide')];
+      const dots   = [...mount.querySelectorAll('.featured-dots .dot')];
+      let idx = 0, timer;
+
+            // ...existing code...
+      const goto = (n) => {
+        // Remove is-active from current slide
+        slides[idx].classList.remove('is-active');
+        idx = n;
+        // Add is-active to new slide
+        slides[idx].classList.add('is-active');
+        // Update dots
+        dots.forEach((dot, i) => {
+          dot.classList.toggle('is-complete', i < idx);
+          dot.classList.toggle('is-active', i === idx);
+          if (i > idx) {
+            dot.classList.remove('is-complete', 'is-active');
+          }
+        });
+      };
+      // ...existing code...
+
+      const start = () => { if (slides.length > 1) timer = setInterval(()=>goto((idx+1)%slides.length), intervalMs); };
+      const stop  = () => clearInterval(timer);
+
+      dots.forEach(d => d.addEventListener('click', () => { stop(); goto(+d.dataset.i); start(); }));
+      document.addEventListener('visibilitychange', () => document.hidden ? stop() : start());
+      
+
+      start();
+    }
+
+    function featuredSlideHTML(ev, active) {
+  // normalize status
+  const status = (ev.status || "").toLowerCase();
+
+  // pick QR like list cards
+  let labelText = "Information";
+  let labelBg = "#fcfcfc";
+  let labelColor = "#353200";
+  let qrImage = ev.qr;
+
+  if (status === "sold-out") {
+    labelText = "Sold Out";
+    labelBg = "#710000";
+    labelColor = "#ffffff";
+    qrImage = ev.soldOutQr || ev.qr;
+  } else if (status === "waitlist") {
+    labelText = "Join Waitlist";
+    labelBg = "#b25c00";
+    labelColor = "#ffffff";
+  }
+
+        // ...existing code...
+        return `
+          <article class="featured-slide ${active ? 'is-active' : ''}">
+            <div class="image-container-pinned">
+              <img
+                src="${ev.image}"
+                alt="${ev.title}"
+                class="event-image"
+                ${active ? 'loading="eager"' : 'loading="lazy"'}
+                onerror="console.warn('Featured image not found:', this.src)"
+              />
+            </div>
+    
+            <div class="featured-body">
+              <div class="event-top">
+                <div class="event-tags">
+                  <span class="tag date" style="background:#fff;color:#111">Featured</span>
+                  <span class="tag date">${formatDateRange(ev.date, ev.endDate)}</span>
+                  <span class="tag type type-${ev.type.toLowerCase().replace(/\s+/g,'-')}">
+                    ${formatType(ev.type)}
+                  </span>
+                </div>
+              </div>
+              <div class="event-middle">
+                <h2 class="event-title" style="color:#fcfcfc">${ev.title}</h2>
+                <p class="event-description" style="color:#fcfcfc">${ev.description}</p>
+              </div>
+            </div>
+    
+            <aside class="featured-qr">
+              <span class="qr-label" style="background:${labelBg};color:${labelColor}">${labelText}</span>
+              <img src="${qrImage}" class="qr-code" alt="QR code"
+                  onerror="console.warn('Featured QR not found:', this.src)" />
+            </aside>
+          </article>
+        `;
+    // ...existing code...
+  }
+
+
+    /* === helpers === */
     function formatDateRange(start, end) {
-      const startDate = new Date(start);
-      const endDate = new Date(end);
-
-      const startStr = formatDate(start);
-      const endStr = formatDate(end);
-
-      return startStr === endStr ? startStr : `${startStr} – ${endStr}`;
+      const s = formatDate(start), e = formatDate(end);
+      return s === e ? s : `${s} – ${e}`;
     }
     function formatDate(dateStr) {
-      const options = { day: '2-digit', month: 'short' };
-      return new Date(dateStr).toLocaleDateString('en-GB', options);
+      return new Date(dateStr).toLocaleDateString('en-GB', { day:'2-digit', month:'short' });
     }
     function formatType(type) {
-      return type
-        .split(/(?=[A-Z])|[\s_-]/) // split camelCase or snake_case or kebab-case
-        .filter(Boolean)
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(' ');
+      return type.split(/(?=[A-Z])|[\s_-]/).filter(Boolean)
+        .map(w => w[0].toUpperCase()+w.slice(1)).join(' ');
     }
   </script>
+
 </body>
 </html>
