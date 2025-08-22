@@ -344,7 +344,7 @@
       "date": "2025-08-24",
       "endDate": "2025-08-24",
       "type": "Activity",
-      "status": "available"
+      "status": "sold-out"
     },
     {
       "title": "Tampines Transformed: Rejuvenate Your Regional Hub!",
@@ -389,6 +389,17 @@
       "endDate": "2025-08-29",
       "type": "Workshop",
       "status": "remove"
+    },
+    {
+      "title": "Future Redevelopment of Sembawang Shipyard district Workshop",
+      "description": "Join us at the Sembawang Shipyard workshop to share your thoughts on SIA/SIP's key ideas for the area's future redevelopment.",
+      "image": "event-pictures/event38.jpg",
+      "qr": "event-qr/qr38.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-30",
+      "endDate": "2025-08-30",
+      "type": "Workshop",
+      "status": "available"
     },
     {
       "title": "DMP25 x SG60 x PAssion Wave Cycling tour",
@@ -443,6 +454,17 @@
       "date": "2025-08-31",
       "endDate": "2025-08-31",
       "type": "Guided Tour",
+      "status": "available"
+    },
+    {
+      "title": "Craft Workshop: Lower Seletar Edition",
+      "description": "Kids 7-12: Be city planners for a day! Join this fun 1hr workshop to design Lower Seletar town with your family.",
+      "image": "event-pictures/event39.jpg",
+      "qr": "event-qr/qr39.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-02",
+      "endDate": "2025-09-14",
+      "type": "Workshop",
       "status": "available"
     }
     
