@@ -391,6 +391,17 @@
       "status": "remove"
     },
     {
+      "title": "'Riding the Tides' Exhibition at VivoCity",
+      "description": "Discover how rising sea levels could impact our island & Singapore’s plan to safeguard our coastline for generations to come.",
+      "image": "event-pictures/event40.jpg",
+      "qr": "event-qr/qr40.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-08-28",
+      "endDate": "2025-08-31",
+      "type": "Activity",
+      "status": "information"
+    },
+    {
       "title": "Future Redevelopment of Sembawang Shipyard district Workshop",
       "description": "Join us at the Sembawang Shipyard workshop to share your thoughts on SIA/SIP's key ideas for the area's future redevelopment.",
       "image": "event-pictures/event38.jpg",
