@@ -577,6 +577,17 @@
       "status": "Available"
     },
     {
+      "title": "Find Your Folks @ Jalan Besar: Makers' Trail",
+      "description": "Rediscover Jalan Besar through a self-guided walk and a two-day street festival (20-21 Sept) with music, fashion, art, food & sports!",
+      "image": "event-pictures/event-fyf.jpg",
+      "qr": "event-qr/qr-fyf.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-11",
+      "endDate": "2025-09-21",
+      "type": "Activity",
+      "status": "Information"
+    },
+    {
       "title": "Singapore River Festival 2025",
       "description": "Celebrate the 9th Singapore River Festival with art, markets, eco-activities at Boat Quay, Clarke Quay & Robertson Quay.",
       "image": "event-pictures/event-srf.jpg",
@@ -675,6 +686,17 @@
       "endDate": "2025-09-13",
       "type": "Guided Tour",
       "status": "available"
+    },
+    {
+      "title": "Find Your Folks @ Jalan Besar: Street Festival",
+      "description": "Rediscover Jalan Besar through a self-guided walk and a two-day street festival with music, fashion, art, food & sports!",
+      "image": "event-pictures/event-fyf.jpg",
+      "qr": "event-qr/qr-fyf.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-20",
+      "endDate": "2025-09-21",
+      "type": "Activity",
+      "status": "Information"
     }
   ]
 }
