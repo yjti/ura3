@@ -1,6 +1,6 @@
 
 {
-  "cutoffDate": "2025-09-02",
+  "cutoffDate": "2025-09-16",
   "events": [
     {
       "title": "Waves of Wellness @ Marina Central",
@@ -202,36 +202,35 @@
     },
     {
       "title": "Self-guided tour of Sembawang Heritage Trail",
-      "description": "Discover Sembawang through a heritage trail. Snap selfies and get exclusive prizes at Causeway Point while stocks lasts!",
+      "description": "Discover Sembawang through a heritage trail. Snap selfies and get exclusive prizes at North Point City while stocks lasts!",
       "image": "event-pictures/event18a.jpg",
       "qr": "event-qr/qr18a.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-08-19",
-      "endDate": "2025-08-31",
+      "date": "2025-09-02",
+      "endDate": "2025-09-14",
       "type": "Self Guided Tour",
       "status": "information",
       "featured": true
     },
     {
       "title": "Self-guided tour of Woodlands Heritage Trail",
-      "description": "Discover Woodlands through a heritage trail. Snap a selfie and get exclusive prizes at Causeway Point while stocks last!",
+      "description": "Discover Woodlands through a heritage trail. Snap a selfie and get exclusive prizes at North Point City while stocks last!",
       "image": "event-pictures/event18b.jpg",
       "qr": "event-qr/qr18b.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-08-19",
-      "endDate": "2025-08-31",
+      "date": "2025-09-02",
+      "endDate": "2025-09-14",
       "type": "Self Guided Tour",
-      "status": "information",
-      "featured": true
+      "status": "information"
     },
     {
       "title": "Self-guided tour of Northern Explorer Loop",
-      "description": "Explore parks along the Northern Explorer Loop. Snap selfies to get exclusive prizes at Causeway Point while stocks last!",
+      "description": "Explore parks along the Northern Explorer Loop. Snap selfies to get exclusive prizes at North Point City while stocks last!",
       "image": "event-pictures/event18c.jpg",
       "qr": "event-qr/qr18c.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-08-19",
-      "endDate": "2025-08-31",
+      "date": "2025-09-02",
+      "endDate": "2025-09-14",
       "type": "Self Guided Tour",
       "status": "information",
       "featured": true
@@ -477,8 +476,107 @@
       "endDate": "2025-09-14",
       "type": "Workshop",
       "status": "available"
+    },
+    {
+      "title": "Bedok Reservoir Park: Therapeutic Garden Activity",
+      "description": "Join therapeutic horticulture sessions: Guided nature activities to boost wellbeing, reduce stress & find calm.",
+      "image": "event-pictures/event41.jpg",
+      "qr": "event-qr/qr41.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-05",
+      "endDate": "2025-09-05",
+      "type": "Activity",
+      "status": "remove"
+    },
+    {
+      "title": "Coastal Crafts Workshop and Gallery Tour",
+      "description": "Design your 'Long Island' & tour Sustainable Singapore Gallery! Workshop Venue @ Bedok Town Square.",
+      "image": "event-pictures/event42.jpg",
+      "qr": "event-qr/qr42.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-05",
+      "endDate": "2025-09-05",
+      "type": "Activity",
+      "status": "Available"
+    },
+    {
+      "title": "SportSG: $100 SG60 ActiveSG Credits/AHrena Lite",
+      "description": "Learn more about the SG60 $100 ActiveSG credit top-up & join the AHrena fitness challenge at Bedok Town Square!",
+      "image": "event-pictures/event43.jpg",
+      "qr": "event-qr/qr43.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-06",
+      "endDate": "2025-09-07",
+      "type": "Activity",
+      "status": "Information"
+    },
+    {
+      "title": "Coastal Crafts Workshop and Gallery Tour",
+      "description": "Design your 'Long Island' & tour Sustainable Singapore Gallery! Workshop Venue @ Bedok Town Square.",
+      "image": "event-pictures/event44.jpg",
+      "qr": "event-qr/qr44.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-06",
+      "endDate": "2025-09-06",
+      "type": "Activity",
+      "status": "Available"
+    },
+    {
+      "title": "North-South Corridor Master Plan Pop-up @ North Point City",
+      "description": "Visit our booth at Northpoint City to learn about & share views on the North-South Corridor Surface Streets Master Plan!",
+      "image": "event-pictures/event45.jpg",
+      "qr": "event-qr/qr45.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-06",
+      "endDate": "2025-09-06",
+      "type": "Activity",
+      "status": "Information",
+      "featured": true
+    },
+    {
+      "title": "Sungei Buloh Tour: What's in my Water?",
+      "description": "Explore Sungei Buloh's waterways! Discover fascinating plants & wildlife on our morning nature walk.",
+      "image": "event-pictures/event46.jpg",
+      "qr": "event-qr/qr46.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-06",
+      "endDate": "2025-09-06",
+      "type": "Guided Tour",
+      "status": "Waitlist"
+    },
+    {
+      "title": "From Eye Level to High Level: Urban Planning in Bedok",
+      "description": "Join URA’s planners on this Bedok walking tour to learn more about how planners work with the community and stakeholders!",
+      "image": "event-pictures/event47.jpg",
+      "qr": "event-qr/qr47.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-07",
+      "endDate": "2025-09-07",
+      "type": "Guided Tour",
+      "status": "Available"
+    },
+    {
+      "title": "Guided tour of sports facilities in Bukit Canberra",
+      "description": "Bukit Canberra, a 12ha hub near Sembawang MRT, offers diverse sports and wellness facilities. Come join us on a tour!",
+      "image": "event-pictures/event48.jpg",
+      "qr": "event-qr/qr48.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-07",
+      "endDate": "2025-09-07",
+      "type": "Guided Tour",
+      "status": "sold-out"
+    },
+    {
+      "title": "Public Reading Event for the Visions of the Sembawang Shipyard",
+      "description": "Join us for public readings of selected entries from the Sembawang Shipyard redevelopment ideas Writing Competition!",
+      "image": "event-pictures/event49.jpg",
+      "qr": "event-qr/qr49.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-07",
+      "endDate": "2025-09-07",
+      "type": "Activity",
+      "status": "Available"
     }
-    
   ]
 }
 

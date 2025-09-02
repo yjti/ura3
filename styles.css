@@ -449,11 +449,13 @@ html, body {
 /* Dots navigation */
 .featured-dots {
   position: absolute;
-  left: 796px;
+  left: 520px;      /* align with .featured-body left */
+  right: 360px;     /* align with .featured-body right */
   bottom: 30px;
-  transform: translateX(-50%);
+  transform: none;  /* remove centering */
   display: flex;
   gap: 8px;
+  justify-content: flex-start; /* align dots to the left */
 }
 
 .featured-dots .dot {
@@ -501,4 +503,13 @@ html, body {
 @keyframes dot-progress {
   from { transform: scaleX(0); }
   to   { transform: scaleX(1); }
+}
+
+.carousel.single-slide .featured-dots .dot.is-active::after {
+  display: none !important;
+  animation: none !important;
+}
+
+.carousel.single-slide .featured-dots .dot {
+  display: none !important;
 }

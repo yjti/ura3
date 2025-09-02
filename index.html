@@ -165,7 +165,13 @@
         })
         .slice(0, maxSlides);
 
-      if (featured.length === 0) { mount.style.display = "none"; return; }
+      if (featured.length === 0) { mount.style.display = "none"; return; 
+      }
+      
+      if (featured.length === 1) {mount.classList.add('single-slide');} 
+        else {
+        mount.classList.remove('single-slide');
+        }
 
       mount.innerHTML = `
         <div class="featured-track">
@@ -220,13 +226,17 @@
 
   if (status === "sold-out") {
     labelText = "Sold Out";
-    labelBg = "#710000";
-    labelColor = "#ffffff";
+    labelBg = "#fcfcfc";
+    labelColor = "#353200";
     qrImage = ev.soldOutQr || ev.qr;
   } else if (status === "waitlist") {
     labelText = "Join Waitlist";
-    labelBg = "#b25c00";
-    labelColor = "#ffffff";
+    labelBg = "#fcfcfc";
+    labelColor = "#353200";
+  } else if (status === "available") {
+    labelText = "Sign-Ups Open";
+    labelBg = "#fcfcfc";
+    labelColor = "#353200";
   }
 
         // ...existing code...
