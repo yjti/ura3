@@ -862,6 +862,61 @@
       "status": "available"
     },
     {
+      "title": "Self-guided tour of Ang Mo Kio (AMK) Heritage Trail",
+      "description": "Discover Ang Mo Kio through a heritage trail. Snap a selfie along the trail and get exclusive prizes at AMK Town Centre!",
+      "image": "event-pictures/event-sgtamkht.jpg",
+      "qr": "event-qr/qr-sgtamktc.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-27",
+      "endDate": "2025-10-05",
+      "type": "Self Guided Tour",
+      "status": "Information"
+    },
+    {
+      "title": "Self-guided tour of Hougang Heritage Trail",
+      "description": "Discover Hougang through a heritage trail. Snap a selfie along the trail & get exclusive prizes at AMK Town Centre!",
+      "image": "event-pictures/event-sgthht.jpg",
+      "qr": "event-qr/qr-sgthht.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-27",
+      "endDate": "2025-10-05",
+      "type": "Self Guided Tour",
+      "status": "Information"
+    },
+    {
+      "title": "Self-guided tour of the Central Urban Loop",
+      "description": "Discover the neighbourhoods and parks in the Central Urban Loop! Snap selfies & get exclusive prizes at AMK Town Centre.",
+      "image": "event-pictures/event-sgtcul.jpg",
+      "qr": "event-qr/qr-sgtcul.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-27",
+      "endDate": "2025-10-05",
+      "type": "Self Guided Tour",
+      "status": "Information"
+    },
+    {
+      "title": "Self-guided tour of the North-East Riverine Loop",
+      "description": "Discover the north-eastern coastline & waterways! Snap selfies along the loop & get exclusive prizes at AMK Town Centre.",
+      "image": "event-pictures/event-sgtnerl.jpg",
+      "qr": "event-qr/qr-sgtnerl.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-27",
+      "endDate": "2025-10-05",
+      "type": "Self Guided Tour",
+      "status": "Information"
+    },
+    {
+      "title": "NLB Pop-up at Ang Mo Kio Town Centre",
+      "description": "Visit our booth at AMK Town Centre to learn about & share views on the new Ang Mo Kio Library!",
+      "image": "event-pictures/event-nlbamktc.jpg",
+      "qr": "event-qr/qr-nosignups.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-09-27",
+      "endDate": "2025-09-28",
+      "type": "Activity",
+      "status": "Information"
+    },
+    {
       "title": "Guided tour of North-South Corridor Project Information Centre",
       "description": "Learn how engineers are building the new transport corridor to the city at NSC's Ang Mo Kio Project Information Centre!",
       "image": "event-pictures/event45.jpg",
