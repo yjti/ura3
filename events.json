@@ -1013,7 +1013,8 @@
       "date": "2025-09-30",
       "endDate": "2025-09-30",
       "type": "Guided Tour",
-      "status": "available"
+      "status": "available",
+      "featured": true
     }
   ]
 }
