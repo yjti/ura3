@@ -869,8 +869,7 @@
       "date": "2025-09-27",
       "endDate": "2025-10-05",
       "type": "Self Guided Tour",
-      "status": "Information",
-      "featured": true
+      "status": "Information"
     },
     {
       "title": "Self-guided tour of Hougang Heritage Trail",
@@ -881,8 +880,7 @@
       "date": "2025-09-27",
       "endDate": "2025-10-05",
       "type": "Self Guided Tour",
-      "status": "Information",
-      "featured": true
+      "status": "Information"
     },
     {
       "title": "Self-guided tour of the Central Urban Loop",
@@ -893,8 +891,7 @@
       "date": "2025-09-27",
       "endDate": "2025-10-05",
       "type": "Self Guided Tour",
-      "status": "Information",
-      "featured": true
+      "status": "Information"
     },
     {
       "title": "Self-guided tour of the North-East Riverine Loop",
@@ -905,8 +902,7 @@
       "date": "2025-09-27",
       "endDate": "2025-10-05",
       "type": "Self Guided Tour",
-      "status": "Information",
-      "featured": true
+      "status": "Information"
     },
     {
       "title": "NLB Pop-up at Ang Mo Kio Town Centre",
@@ -1285,13 +1281,13 @@
     {
       "title": "Paper Paradise: Dover-Medway Edition",
       "description": "Kids 7-12: Learn how we plan for Singapore and try designing a future town at Dover-Medway! Workshop @ One Holland V",
-      "image": "",
+      "image": "event-pictures/event-ppdm.jpg",
       "qr": "",
       "soldOutQr": "event-qr/qr-sold-out.png",
       "date": "2025-10-12",
       "endDate": "2025-10-12",
       "type": "Workshop",
-      "status": ""
+      "status": "available"
     }
 
 
