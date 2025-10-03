@@ -306,8 +306,12 @@ html, body {
 .qr-code {
   width: 200px;
   height: 200px;
+  background-color: white;
+  border-radius: 30px;
   margin-top: 8px;
   margin-bottom: 28px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 

@@ -1023,7 +1023,8 @@
       "date": "2025-10-04",
       "endDate": "2025-10-12",
       "type": "Self Guided Tour",
-      "status": "Information"
+      "status": "Information",
+      "featured": true
     },
     {
       "title": "Guided tour of Lively Places Fund: Mural Painting for Dementia Wayfinding",
@@ -1180,117 +1181,181 @@
       "status": "available"
     },
     {
+      "title": "Exploring CleanTech Park in Jurong Innovation District",
+      "description": "Explore CleanTech Park! Snap selfies at 2 checkpoints along the trail & redeem a token at Lot One, while stocks last!",
+      "image": "event-pictures/events-sgtctp.jpg",
+      "qr": "event-qr/qr-sgtctp.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-07",
+      "endDate": "2025-10-19",
+      "type": "Self Guided Tour",
+      "status": "Information"
+    },
+    {
+      "title": "Scenic Quarries in the West",
+      "description": "Explore scenic quarries! Snap selfies at 2 checkpoints along the trail & redeem a token at Lot One, while stocks last!",
+      "image": "event-pictures/events-sgtsq.jpg",
+      "qr": "event-qr/qr-sgtsq.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-07",
+      "endDate": "2025-10-19",
+      "type": "Self Guided Tour",
+      "status": "Information"
+    },
+     {
+      "title": "The Activity and Lifestyle Corridors of Choa Chu Kang",
+      "description": "Discover Choa Chu Kang! Snap selfies at 2 checkpoints along the trail & redeem a token at Lot One, while stocks last!",
+      "image": "event-pictures/events-sgtcck.jpg",
+      "qr": "event-qr/qr-sgtcck.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-07",
+      "endDate": "2025-10-19",
+      "type": "Self Guided Tour",
+      "status": "Information"
+    },
+    {
       "title": "Guided tour of Lively Places Fund - Mural Painting for Dementia Wayfinding",
       "description": "Join a guided tour to explore 10 art pieces that provide effective wayfinding for people with dementia!",
-      "image": "",
-      "qr": "",
+      "image": "event-pictures/event-gtlpfmpdw.jpg",
+      "qr": "event-qr/qr-lpfmpdw8oct.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
       "date": "2025-10-08",
       "endDate": "2025-10-08",
       "type": "Guided Tour",
-      "status": ""
+      "status": "available"
     },
     {
       "title": "Guided tour on Lively Places Fund – Buona Vista Green Eye View",
       "description": "Explore Buona Vista's record-breaking community gardening hub with heritage-inspired Hakka floor art!",
-      "image": "",
-      "qr": "",
+      "image": "event-pictures/events-lpfbvgev.avif",
+      "qr": "event-qr/qr-lpfbvgev.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
       "date": "2025-10-08",
       "endDate": "2025-10-08",
       "type": "Guided Tour",
-      "status": ""
+      "status": "available"
     },
     {
       "title": "Isopod Breeding and Ecosystem Workshop by A Good Place",
       "description": "Connect with others through isopod breeding in this hands-on workshop!",
-      "image": "",
-      "qr": "",
+      "image": "event-pictures/event-ibew.jpg",
+      "qr": "event-qr/qr-ibew9oct.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
       "date": "2025-10-09",
       "endDate": "2025-10-09",
       "type": "Workshop",
-      "status": ""
+      "status": "available"
     },
     {
       "title": "Talk on Understanding and Engaging Autistic Individuals by A Good Place",
       "description": "Learn about autism & support strategies! Discover how to create inclusive spaces & build meaningful connections.",
-      "image": "",
-      "qr": "",
+      "image": "event-pictures/event-tueai.jpg",
+      "qr": "event-qr/qr-tueai9oct.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
       "date": "2025-10-09",
       "endDate": "2025-10-09",
       "type": "Activity",
-      "status": ""
+      "status": "available"
     },
     {
       "title": "Guided tour of industrial developments in one-north",
       "description": "Tour Singapore's innovation hub! Explore how research, business & lifestyle are integrated in this sustainable district.",
-      "image": "",
-      "qr": "",
+      "image": "event-pictures/events-gton.avif",
+      "qr": "event-qr/qr-gton10oct.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
       "date": "2025-10-10",
       "endDate": "2025-10-10",
       "type": "Guided Tour",
-      "status": ""
+      "status": "available"
     },
     {
       "title": "Guided tour of Japanese Gardens",
       "description": "Tour the new Japanese Gardens at Jurong Lake! Experience traditional architecture and serene landscapes.",
-      "image": "",
-      "qr": "",
+      "image": "event-pictures/events-ftjg.jpg",
+      "qr": "event-qr/qr-gtjg.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
       "date": "2025-10-11",
       "endDate": "2025-10-11",
       "type": "Guided Tour",
-      "status": ""
+      "status": "available"
     },
     {
       "title": "Guided tour of Rail Corridor",
       "description": "Explore Rail Corridor's past! See Bukit Timah Railway Station & learn about local wildlife on a family-friendly tour.",
-      "image": "",
+      "image": "event-pictures/events-gtrcc.jpg",
       "qr": "",
       "soldOutQr": "event-qr/qr-sold-out.png",
       "date": "2025-10-11",
       "endDate": "2025-10-11",
       "type": "Guided Tour",
-      "status": ""
+      "status": "sold-out"
     },
     {
       "title": "Guided tour on Lively Places Fund – Mural Painting for Dementia Wayfinding",
       "description": "Join a guided tour to explore 10 art pieces that provide effective wayfinding for people with dementia!",
-      "image": "",
-      "qr": "",
+      "image": "event-pictures/event-gtlpfmpdw.jpg",
+      "qr": "event-qr/qr-lpfmpdw11oct.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
       "date": "2025-10-11",
       "endDate": "2025-10-11",
       "type": "Guided Tour",
-      "status": ""
+      "status": "available"
     },
     {
       "title": "Guided walk of St John's Island",
       "description": "Discover the rich biodiversity and history of St John's Island on this 1.6km walking tour!",
-      "image": "",
-      "qr": "",
+      "image": "event-pictures/event-gwsji.jpg",
+      "qr": "event-qr/qr-gwsji11oct.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
       "date": "2025-10-11",
       "endDate": "2025-10-11",
       "type": "Guided Tour",
-      "status": ""
+      "status": "available"
     },
     {
       "title": "Paper Paradise: Dover-Medway Edition",
       "description": "Kids 7-12: Learn how we plan for Singapore and try designing a future town at Dover-Medway! Workshop @ One Holland V",
       "image": "event-pictures/event-ppdm.jpg",
-      "qr": "",
+      "qr": "event-qr/qr-ppdm12oct.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
       "date": "2025-10-12",
       "endDate": "2025-10-12",
       "type": "Workshop",
       "status": "available"
+    },
+{
+      "title": "Southwestern Parks Pop-up",
+      "description": "NParks plan to enhance 13 southern parks into connected trails and Destination Parks. Share your ideas @ One Holland V!",
+      "image": "event-pictures/events-swpp.avif",
+      "qr": "event-qr/qr-nosignups.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-12",
+      "endDate": "2025-10-12",
+      "type": "Activity",
+      "status": "available"
+    },
+{
+      "title": "Craft Workshop - West Region Edition",
+      "description": "Kids 7-12: Be city planners for a day! Join this fun 1hr workshop to design Singapore with your family.",
+      "image": "event-pictures/events-cw.jpg",
+      "qr": "event-qr/qr-cwwre12oct.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-12",
+      "endDate": "2025-10-12",
+      "type": "Activity",
+      "status": "available"
+    },
+{
+      "title": "Salsation Workout Programme",
+      "description": "Join a Salsation workout programme & get active with Healthy 365! Find tips & programmes to live a healthier lifestyle.",
+      "image": "event-pictures/events-hpb.avif",
+      "qr": "event-qr/qr-hpb.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-13",
+      "endDate": "2025-10-13",
+      "type": "Activity",
+      "status": "available"
     }
-
-
   ]
 }
 
