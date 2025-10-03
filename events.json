@@ -1266,7 +1266,7 @@
       "date": "2025-10-10",
       "endDate": "2025-10-10",
       "type": "Guided Tour",
-      "status": "available"
+      "status": "sold-out"
     },
     {
       "title": "Guided tour of Japanese Gardens",
@@ -1310,7 +1310,7 @@
       "date": "2025-10-11",
       "endDate": "2025-10-11",
       "type": "Guided Tour",
-      "status": "available"
+      "status": "waitlist"
     },
     {
       "title": "Paper Paradise: Dover-Medway Edition",
