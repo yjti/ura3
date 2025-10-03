@@ -1313,6 +1313,17 @@
       "status": "waitlist"
     },
     {
+      "title": "Southern Islands Eco-Escape",
+      "description": "Discover a rustic getaway minutes from Sentosa, where pristine beaches meet rich biodiversity and sustainable tourism.",
+      "image": "event-pictures/events-siee.jpg",
+      "qr": "event-qr/qr-gwsji11oct.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-11",
+      "endDate": "2025-10-11",
+      "type": "Guided Tour",
+      "status": "sold-out"
+    },
+    {
       "title": "Paper Paradise: Dover-Medway Edition",
       "description": "Kids 7-12: Learn how we plan for Singapore and try designing a future town at Dover-Medway! Workshop @ One Holland V",
       "image": "event-pictures/event-ppdm.jpg",
@@ -1344,6 +1355,17 @@
       "endDate": "2025-10-12",
       "type": "Activity",
       "status": "available"
+    },
+{
+      "title": "Southern Islands Eco-Escape",
+      "description": "Discover a rustic getaway minutes from Sentosa, where pristine beaches meet rich biodiversity and sustainable tourism.",
+      "image": "event-pictures/events-siee.jpg",
+      "qr": "event-qr/qr-gwsji11oct.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-12",
+      "endDate": "2025-10-12",
+      "type": "Guided Tour",
+      "status": "sold-out"
     },
 {
       "title": "Salsation Workout Programme",
