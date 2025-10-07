@@ -1244,7 +1244,7 @@
       "date": "2025-10-09",
       "endDate": "2025-10-09",
       "type": "Workshop",
-      "status": "available"
+      "status": "sold-out"
     },
     {
       "title": "Talk on Understanding and Engaging Autistic Individuals by A Good Place",
@@ -1277,7 +1277,7 @@
       "date": "2025-10-11",
       "endDate": "2025-10-11",
       "type": "Guided Tour",
-      "status": "available"
+      "status": "sold-out"
     },
     {
       "title": "Guided tour of Rail Corridor",
