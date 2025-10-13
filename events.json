@@ -1,6 +1,6 @@
 
 {
-  "cutoffDate": "2025-10-14",
+  "cutoffDate": "2025-10-28",
   "events": [
     {
       "title": "Waves of Wellness @ Marina Central",
@@ -1023,8 +1023,7 @@
       "date": "2025-10-04",
       "endDate": "2025-10-12",
       "type": "Self Guided Tour",
-      "status": "Information",
-      "featured": true
+      "status": "Information"
     },
     {
       "title": "Guided tour of Lively Places Fund: Mural Painting for Dementia Wayfinding",
@@ -1035,7 +1034,7 @@
       "date": "2025-10-04",
       "endDate": "2025-10-04",
       "type": "Guided Tour",
-      "status": "available"
+      "status": "remove"
     },
     {
       "title": "Guided tour of North-South Corridor Project Information Centre",
@@ -1046,7 +1045,7 @@
       "date": "2025-10-04",
       "endDate": "2025-10-04",
       "type": "Guided Tour",
-      "status": "available"
+      "status": "remove"
     },
     {
       "title": "Guided tour of Pulau Ubin",
@@ -1057,7 +1056,7 @@
       "date": "2025-10-04",
       "endDate": "2025-10-04",
       "type": "Guided Tour",
-      "status": "sold-out"
+      "status": "remove"
     },
     {
       "title": "Guided tour of Sentosa Sensoryscape",
@@ -1068,7 +1067,7 @@
       "date": "2025-10-04",
       "endDate": "2025-10-04",
       "type": "Guided Tour",
-      "status": "available"
+      "status": "remove"
     },
     {
       "title": "Guided tours of industrial developments in one-north",
@@ -1079,7 +1078,7 @@
       "date": "2025-10-04",
       "endDate": "2025-10-04",
       "type": "Guided Tour",
-      "status": "available"
+      "status": "remove"
     },
     {
       "title": "North-South Corridor Master Plan Pop-up",
@@ -1090,7 +1089,7 @@
       "date": "2025-10-04",
       "endDate": "2025-10-04",
       "type": "Activity",
-      "status": "information"
+      "status": "remove"
     },
     {
       "title": "Paper Paradise: Dover-Medway Edition",
@@ -1101,7 +1100,7 @@
       "date": "2025-10-04",
       "endDate": "2025-10-04",
       "type": "Workshop",
-      "status": "available"
+      "status": "remove"
     },
     {
       "title": "Seniors Band Performance by A Good Place",
@@ -1112,7 +1111,7 @@
       "date": "2025-10-04",
       "endDate": "2025-10-04",
       "type": "Activity",
-      "status": "information"
+      "status": "remove"
     },
     {
       "title": "Singapore Botanic Gardens: Guided Tour of Gallop Extension",
@@ -1123,7 +1122,7 @@
       "date": "2025-10-04",
       "endDate": "2025-10-04",
       "type": "Guided Tour",
-      "status": "information"
+      "status": "remove"
     },
     {
       "title": "Singapore Botanic Gardens: Guided tour of Healing Garden",
@@ -1134,7 +1133,7 @@
       "date": "2025-10-04",
       "endDate": "2025-10-04",
       "type": "Guided Tour",
-      "status": "information"
+      "status": "remove"
     },
     {
       "title": "Singapore Botanic Gardens: Guided tour of Rain Forest",
@@ -1145,7 +1144,7 @@
       "date": "2025-10-04",
       "endDate": "2025-10-04",
       "type": "Guided Tour",
-      "status": "information"
+      "status": "remove"
     },
     {
       "title": "Guided tour of Sentosa Sensoryscape",
@@ -1156,7 +1155,7 @@
       "date": "2025-10-05",
       "endDate": "2025-10-05",
       "type": "Guided Tour",
-      "status": "available"
+      "status": "remove"
     },
     {
       "title": "Isopod Breeding and Ecosystem Workshop by A Good Place",
@@ -1167,7 +1166,7 @@
       "date": "2025-10-06",
       "endDate": "2025-10-06",
       "type": "Workshop",
-      "status": "available"
+      "status": "remove"
     },
     {
       "title": "Talk on Understanding and Engaging Autistic Individuals by A Good Place",
@@ -1178,7 +1177,7 @@
       "date": "2025-10-06",
       "endDate": "2025-10-06",
       "type": "Activity",
-      "status": "available"
+      "status": "remove"
     },
     {
       "title": "Exploring CleanTech Park in Jurong Innovation District",
@@ -1189,7 +1188,7 @@
       "date": "2025-10-07",
       "endDate": "2025-10-19",
       "type": "Self Guided Tour",
-      "status": "Information"
+      "status": "remove"
     },
     {
       "title": "Scenic Quarries in the West",
@@ -1200,7 +1199,7 @@
       "date": "2025-10-07",
       "endDate": "2025-10-19",
       "type": "Self Guided Tour",
-      "status": "Information"
+      "status": "remove"
     },
      {
       "title": "The Activity and Lifestyle Corridors of Choa Chu Kang",
@@ -1211,7 +1210,7 @@
       "date": "2025-10-07",
       "endDate": "2025-10-19",
       "type": "Self Guided Tour",
-      "status": "Information"
+      "status": "remove"
     },
     {
       "title": "Guided tour of Lively Places Fund - Mural Painting for Dementia Wayfinding",
@@ -1376,6 +1375,226 @@
       "date": "2025-10-13",
       "endDate": "2025-10-13",
       "type": "Activity",
+      "status": "remove"
+    },
+{
+      "title": "Quick HIIT Workout Programme",
+      "description": "Join a HIIT workout programme & get active with Healthy 365! Find tips & programmes to live a healthier lifestyle.",
+      "image": "event-pictures/events-hpb.avif",
+      "qr": "event-qr/qr-hpb1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-16",
+      "endDate": "2025-10-16",
+      "type": "Activity",
+      "status":"remove"
+    },
+  {
+      "title": "Guided tour of Sembcorp Tengeh Floating Solar Farm",
+      "description": "Visit Sembcorp Tengeh Floating Solar Farm, Singapore's first large-scale floating solar farm deployment! Ages 18+ only.",
+      "image": "event-pictures/events-stfsf.jpg",
+      "qr": "event-qr/qr-hpb1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-16",
+      "endDate": "2025-10-16",
+      "type": "Activity",
+      "status":"remove"
+    },
+  {
+      "title": "Guided tour of Jurong Innovation District",
+      "description": "Tour Jurong Innovation District! See key facilities, upcoming developments & learn about future transport plans.",
+      "image": "event-pictures/events-gtjid.jpg",
+      "qr": "event-qr/qr-hpb.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-18",
+      "endDate": "2025-10-18",
+      "type": "Activity",
+      "status":"remove"
+    },
+  {
+      "title": "SportSG: $100 SG60 ActiveSG Credits/AHrena Lite/Active Parents",
+      "description": "Learn more about the SG60 $100 ActiveSG credit top-up & join the AHrena fitness challenge at Lot One!",
+      "image": "event-pictures/events-sportsg.jpg",
+      "qr": "event-qr/qr-nosignups.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-18",
+      "endDate": "2025-10-19",
+      "type": "Activity",
+      "status":"remove"
+    },
+  {
+      "title": "Trees of the Fort Tour",
+      "description": "Discover unique trees! See giant Kapok, Banyan roots, record Madras Thorn & upside-down Baobab on this park tour.",
+      "image": "event-pictures/events-totf.jpg",
+      "qr": "event-qr/qr-totf18oct1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-18",
+      "endDate": "2025-10-18",
+      "type": "Guided Tour",
+      "status":"remove"
+    },
+  {
+      "title": "Craft Workshop - West Region Edition",
+      "description": "Kids 7-12: Be city planners for a day! Join this fun 1hr workshop to design Singapore with your family.",
+      "image": "event-pictures/events-cw.jpg",
+      "qr": "event-qr/qr-cwwre19oct1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-19",
+      "endDate": "2025-10-19",
+      "type": "Workshop",
+      "status":"remove"
+    },
+  {
+      "title": "Guided tour of former Combined Operations Room",
+      "description": "Experience Singapore's former police & military command centre, which safeguarded the nation's security and heritage.",
+      "image": "event-pictures/events-gtfcor.jpg",
+      "qr": "event-qr/qr-gtfcor.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-21",
+      "endDate": "2025-10-21",
+      "type": "Guided Tour",
+      "status":"sold-out"
+    },
+  {
+      "title": "Guided tour of former Combined Operations Room",
+      "description": "Experience Singapore's former police & military command centre, which safeguarded the nation's security and heritage.",
+      "image": "event-pictures/events-gtfcor.jpg",
+      "qr": "event-qr/qr-gtfcor.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-23",
+      "endDate": "2025-10-23",
+      "type": "Guided Tour",
+      "status":"available"
+    },
+  {
+      "title": "Guided heritage tour of Kampong Glam",
+      "description": "Join our planner on a walk at Kampong Glam! Learn how URA works with the community to preserve this district's heritage.",
+      "image": "event-pictures/events-gtkg.jpg",
+      "qr": "event-qr/qr-gtkg.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-23",
+      "endDate": "2025-10-23",
+      "type": "Guided Tour",
+      "status":"sold-out"
+    },
+  {
+      "title": "A guided tour of New Bahru",
+      "description": "A walk through New Bahru—where its cherished heritage is thoughtfully woven into a new purpose for today.",
+      "image": "event-pictures/event4.jpg",
+      "qr": "event-qr/qr-gtnb.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-24",
+      "endDate": "2025-10-24",
+      "type": "Guided Tour",
+      "status":"available"
+    },
+  {
+      "title": "Guided heritage tour of Little India",
+      "description": "Join our planner on a walk at Little India! Experience the sights, sounds and scents of this historic district.",
+      "image": "event-pictures/events-gtli.jpg",
+      "qr": "event-qr/qr-gtli.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-24",
+      "endDate": "2025-10-24",
+      "type": "Guided Tour",
+      "status":"sold-out"
+    },
+  {
+      "title": "Fort Canning Heritage Gallery and Spice Gallery Tour",
+      "description": "Tour Fort Canning's Heritage & Spice Galleries! Discover rare artefacts & explore Singapore's diverse spice garden.",
+      "image": "event-pictures/events-gtfcsg.jpg",
+      "qr": "event-qr/qr-gtfcsg.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-10-25",
+      "type": "Guided Tour",
+      "status":"available"
+    },
+  {
+      "title": "Craft Workshop - Marina East Edition",
+      "description": "Kids 7-12: Be city planners for a day! Join a fun 1hr workshop to design Marina East town with your family @ Plaza Sing!",
+      "image": "event-pictures/event7.jpg",
+      "qr": "event-qr/qr-cwme25oct.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-10-25",
+      "type": "Workshop",
+      "status":"available"
+    },
+  {
+      "title": "Reimagine the Newton Flyover and Viaduct space!",
+      "description": "Design Newton flyover and viaduct space through a collaborative design and sticker colouring session @ Plaza Singapura!",
+      "image": "event-pictures/event9.jpg",
+      "qr": "event-qr/qr-newton25oct.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-10-25",
+      "type": "Workshop",
+      "status":"available"
+    },
+  {
+      "title": "Guided tours of industrial developments in Punggol Digital District",
+      "description": "Tour Punggol Digital District! See how this smart hub integrates work, learning & lifestyle with future MRT access.",
+      "image": "event-pictures/events-gtpdd.jpg",
+      "qr": "event-qr/qr-",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-10-25",
+      "type": "Guided Tour",
+      "status":"available"
+    },
+  {
+      "title": "Craft Workshop - Marina East Edition",
+      "description": "Kids 7-12: Be city planners for a day! Join a fun 1hr workshop to design Marina East town with your family @ Plaza Sing!",
+      "image": "event-pictures/event7.jpg",
+      "qr": "event-qr/qr-cwme26oct.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-26",
+      "endDate": "2025-10-26",
+      "type": "Workshop",
+      "status":"available"
+    },
+  {
+      "title": "Reimagine the Newton Flyover and Viaduct space!",
+      "description": "Design Newton flyover and viaduct space through a collaborative design and sticker colouring session @ Plaza Singapura!",
+      "image": "event-pictures/event9.jpg",
+      "qr": "event-qr/qr-newton26oct.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-26",
+      "endDate": "2025-10-26",
+      "type": "Workshop",
+      "status":"available"
+    },
+  {
+      "title": "Guided tours of industrial developments in Punggol Digital District",
+      "description": "Tour Punggol Digital District! See how this smart hub integrates work, learning & lifestyle with future MRT access.",
+      "image": "event-pictures/events-gtpdd.jpg",
+      "qr": "event-qr/qr-",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-26",
+      "endDate": "2025-10-26",
+      "type": "Guided Tour",
+      "status":"available"
+    },
+  {
+      "title": "Guided tour of Punggol Sustainability Trail",
+      "description": "Join guided walks to discover green living at Punggol Waterway and explore smart initiatives at Punggol Northshore.",
+      "image": "event-pictures/events-gtpst.jpg",
+      "qr": "event-qr/qr-gtpst.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-26",
+      "endDate": "2025-10-26",
+      "type": "Guided Tour",
+      "status":"available"
+    },
+  {
+      "title": "Guided tour of One Punggol",
+      "description": "Explore One Punggol, a hub with seamlessly integrated public services & amenities, including a library & hawker centre!",
+      "image": "event-pictures/event-gtop.jpg",
+      "qr": "event-qr/qr-gtop",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-27",
+      "endDate": "2025-10-27",
+      "type": "Guided Tour",
       "status": "available"
     }
   ]
