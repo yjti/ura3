@@ -1463,7 +1463,7 @@
       "date": "2025-10-23",
       "endDate": "2025-10-23",
       "type": "Guided Tour",
-      "status":"available"
+      "status":"sold-out"
     },
   {
       "title": "Guided heritage tour of Kampong Glam",
@@ -1510,6 +1510,17 @@
       "status":"available"
     },
   {
+      "title": "Through the lens of an Architect: Tour of Sengkang Grand Mall",
+      "description": "Ever wondered how integrated developments come about? Join us on a tour to discover how Sengkang Grand Mall came to life",
+      "image": "event-pictures/events-gtskgm.jpg",
+      "qr": "event-qr/qr-gtskgm25oct.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-10-25",
+      "type": "Guided Tour",
+      "status":"available"
+    },
+  {
       "title": "Craft Workshop - Marina East Edition",
       "description": "Kids 7-12: Be city planners for a day! Join a fun 1hr workshop to design Marina East town with your family @ Plaza Sing!",
       "image": "event-pictures/event7.jpg",
@@ -1532,10 +1543,21 @@
       "status":"available"
     },
   {
-      "title": "Guided tours of industrial developments in Punggol Digital District",
+      "title": "Guided tours of industrial developments in Punggol Digital District (1.30PM TO 3PM)",
       "description": "Tour Punggol Digital District! See how this smart hub integrates work, learning & lifestyle with future MRT access.",
       "image": "event-pictures/events-gtpdd.jpg",
-      "qr": "event-qr/qr-",
+      "qr": "event-qr/qr-gtpdd25oct1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-10-25",
+      "type": "Guided Tour",
+      "status":"available"
+    },
+  {
+      "title": "Guided tours of industrial developments in Punggol Digital District (3.30PM TO 5PM)",
+      "description": "Tour Punggol Digital District! See how this smart hub integrates work, learning & lifestyle with future MRT access.",
+      "image": "event-pictures/events-gtpdd.jpg",
+      "qr": "event-qr/qr-gtpdd25oct2.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
       "date": "2025-10-25",
       "endDate": "2025-10-25",
@@ -1565,19 +1587,8 @@
       "status":"available"
     },
   {
-      "title": "Guided tours of industrial developments in Punggol Digital District",
-      "description": "Tour Punggol Digital District! See how this smart hub integrates work, learning & lifestyle with future MRT access.",
-      "image": "event-pictures/events-gtpdd.jpg",
-      "qr": "event-qr/qr-",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-10-26",
-      "endDate": "2025-10-26",
-      "type": "Guided Tour",
-      "status":"available"
-    },
-  {
       "title": "Guided tour of Punggol Sustainability Trail",
-      "description": "Join guided walks to discover green living at Punggol Waterway and explore smart initiatives at Punggol Northshore.",
+      "description": "Join guided walks to discover green living at Punggol Waterway!",
       "image": "event-pictures/events-gtpst.jpg",
       "qr": "event-qr/qr-gtpst.png",
       "soldOutQr": "event-qr/qr-sold-out.png",
