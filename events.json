@@ -1499,6 +1499,17 @@
       "status":"sold-out"
     },
   {
+      "title": "Guided tour of Punggol Sustainability Trail",
+      "description": "Join guided walks to discover green living at Punggol Waterway!",
+      "image": "event-pictures/events-gtpst.jpg",
+      "qr": "event-qr/qr-gtpst.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-10-25",
+      "type": "Guided Tour",
+      "status":"available"
+    },
+  {
       "title": "Fort Canning Heritage Gallery and Spice Gallery Tour",
       "description": "Tour Fort Canning's Heritage & Spice Galleries! Discover rare artefacts & explore Singapore's diverse spice garden.",
       "image": "event-pictures/events-gtfcsg.jpg",
@@ -1507,7 +1518,7 @@
       "date": "2025-10-25",
       "endDate": "2025-10-25",
       "type": "Guided Tour",
-      "status":"available"
+      "status":"waitlist"
     },
   {
       "title": "Through the lens of an Architect: Tour of Sengkang Grand Mall",
@@ -1518,7 +1529,7 @@
       "date": "2025-10-25",
       "endDate": "2025-10-25",
       "type": "Guided Tour",
-      "status":"available"
+      "status":"sold-out"
     },
   {
       "title": "Craft Workshop - Marina East Edition",
@@ -1587,17 +1598,6 @@
       "status":"available"
     },
   {
-      "title": "Guided tour of Punggol Sustainability Trail",
-      "description": "Join guided walks to discover green living at Punggol Waterway!",
-      "image": "event-pictures/events-gtpst.jpg",
-      "qr": "event-qr/qr-gtpst.png",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-10-26",
-      "endDate": "2025-10-26",
-      "type": "Guided Tour",
-      "status":"available"
-    },
-  {
       "title": "Guided tour of One Punggol",
       "description": "Explore One Punggol, a hub with seamlessly integrated public services & amenities, including a library & hawker centre!",
       "image": "event-pictures/event-gtop.jpg",
@@ -1606,7 +1606,7 @@
       "date": "2025-10-27",
       "endDate": "2025-10-27",
       "type": "Guided Tour",
-      "status": "available"
+      "status": "sold-out"
     }
   ]
 }
