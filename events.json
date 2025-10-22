@@ -850,61 +850,6 @@
       "status": "available"
     },
     {
-      "title": "Craft Workshop: Paya Lebar Air Base (PLAB) Edition",
-      "description": "Imagine tomorrow’s towns today! Kids can take on the role as city planners to design future PLAB town at AMK Town Centre.",
-      "image": "event-pictures/event-cwplab.jpg",
-      "qr": "event-qr/qr-cwplab.png",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-09-27",
-      "endDate": "2025-10-05",
-      "type": "Workshop",
-      "status": "available"
-    },
-    {
-      "title": "Self-guided tour of Ang Mo Kio (AMK) Heritage Trail",
-      "description": "Discover Ang Mo Kio through a heritage trail. Snap a selfie along the trail and get exclusive prizes at AMK Town Centre!",
-      "image": "event-pictures/event-sgtamkht.jpg",
-      "qr": "event-qr/qr-sgtamktc.png",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-09-27",
-      "endDate": "2025-10-05",
-      "type": "Self Guided Tour",
-      "status": "Information"
-    },
-    {
-      "title": "Self-guided tour of Hougang Heritage Trail",
-      "description": "Discover Hougang through a heritage trail. Snap a selfie along the trail & get exclusive prizes at AMK Town Centre!",
-      "image": "event-pictures/event-sgthht.jpg",
-      "qr": "event-qr/qr-sgthht.png",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-09-27",
-      "endDate": "2025-10-05",
-      "type": "Self Guided Tour",
-      "status": "Information"
-    },
-    {
-      "title": "Self-guided tour of the Central Urban Loop",
-      "description": "Discover the neighbourhoods and parks in the Central Urban Loop! Snap selfies & get exclusive prizes at AMK Town Centre.",
-      "image": "event-pictures/event-sgtcul.jpg",
-      "qr": "event-qr/qr-sgtcul.png",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-09-27",
-      "endDate": "2025-10-05",
-      "type": "Self Guided Tour",
-      "status": "Information"
-    },
-    {
-      "title": "Self-guided tour of the North-East Riverine Loop",
-      "description": "Discover the north-eastern coastline & waterways! Snap selfies along the loop & get exclusive prizes at AMK Town Centre.",
-      "image": "event-pictures/event-sgtnerl.jpg",
-      "qr": "event-qr/qr-sgtnerl.png",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-09-27",
-      "endDate": "2025-10-05",
-      "type": "Self Guided Tour",
-      "status": "Information"
-    },
-    {
       "title": "NLB Pop-up at Ang Mo Kio Town Centre",
       "description": "Visit our booth at AMK Town Centre to learn about & share views on the new Ang Mo Kio Library!",
       "image": "event-pictures/event-nlbamktc.jpg",
@@ -1497,6 +1442,61 @@
       "endDate": "2025-10-24",
       "type": "Guided Tour",
       "status":"sold-out"
+    },
+  {
+      "title": "Craft Workshop: Paya Lebar Air Base (PLAB) Edition",
+      "description": "Imagine tomorrow’s towns today! At Sengkang Grand Mall, kids can take on the role as city planners to design future PLAB town.",
+      "image": "event-pictures/event-cwplab.jpg",
+      "qr": "event-qr/qr-plab1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-11-02",
+      "type": "Workshop",
+      "status": "available"
+    },
+    {
+      "title": "Self-guided tour of Ang Mo Kio (AMK) Heritage Trail",
+      "description": "Discover Ang Mo Kio through a heritage trail. Snap a selfie along the trail and get exclusive prizes at Sengkang Grand Mall!",
+      "image": "event-pictures/event-sgtamkht.jpg",
+      "qr": "event-qr/qr-sgtamkht1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-11-02",
+      "type": "Self Guided Tour",
+      "status": "Information"
+    },
+    {
+      "title": "Self-guided tour of Hougang Heritage Trail",
+      "description": "Discover Hougang through a heritage trail. Snap a selfie along the trail & get exclusive prizes at Sengkang Grand Mall!",
+      "image": "event-pictures/event-sgthht.jpg",
+      "qr": "event-qr/qr-sgthht1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-11-02",
+      "type": "Self Guided Tour",
+      "status": "Information"
+    },
+    {
+      "title": "Self-guided tour of the Central Urban Loop",
+      "description": "Discover the neighbourhoods and parks in the Central Urban Loop! Snap selfies & get exclusive prizes at Sengkang Grand Mall.",
+      "image": "event-pictures/event-sgtcul.jpg",
+      "qr": "event-qr/qr-sgtcul1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-11-02",
+      "type": "Self Guided Tour",
+      "status": "Information"
+    },
+    {
+      "title": "Self-guided tour of the North-East Riverine Loop",
+      "description": "Discover the north-eastern coastline & waterways! Snap selfies along the loop & get exclusive prizes at Sengkang Grand Mall.",
+      "image": "event-pictures/event-sgtnerl.jpg",
+      "qr": "event-qr/qr-sgtnerl1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-11-02",
+      "type": "Self Guided Tour",
+      "status": "Information"
     },
   {
       "title": "Guided tour of Punggol Sustainability Trail",
