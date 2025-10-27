@@ -1,6 +1,6 @@
 
 {
-  "cutoffDate": "2025-10-28",
+  "cutoffDate": "2025-11-11",
   "events": [
     {
       "title": "Waves of Wellness @ Marina Central",
@@ -850,6 +850,61 @@
       "status": "available"
     },
     {
+      "title": "Craft Workshop: Paya Lebar Air Base (PLAB) Edition",
+      "description": "Imagine tomorrow’s towns today! At Sengkang Grand Mall, kids can take on the role as city planners to design future PLAB town.",
+      "image": "event-pictures/event-cwplab.jpg",
+      "qr": "event-qr/qr-plab1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-11-02",
+      "type": "Workshop",
+      "status": "available"
+    },
+    {
+      "title": "Self-guided tour of Ang Mo Kio (AMK) Heritage Trail",
+      "description": "Discover Ang Mo Kio through a heritage trail. Snap a selfie along the trail and get exclusive prizes at Sengkang Grand Mall!",
+      "image": "event-pictures/event-sgtamkht.jpg",
+      "qr": "event-qr/qr-sgtamkht1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-11-02",
+      "type": "Self Guided Tour",
+      "status": "Information"
+    },
+    {
+      "title": "Self-guided tour of Hougang Heritage Trail",
+      "description": "Discover Hougang through a heritage trail. Snap a selfie along the trail & get exclusive prizes at Sengkang Grand Mall!",
+      "image": "event-pictures/event-sgthht.jpg",
+      "qr": "event-qr/qr-sgthht1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-11-02",
+      "type": "Self Guided Tour",
+      "status": "Information"
+    },
+    {
+      "title": "Self-guided tour of the Central Urban Loop",
+      "description": "Discover the neighbourhoods and parks in the Central Urban Loop! Snap selfies & get exclusive prizes at Sengkang Grand Mall.",
+      "image": "event-pictures/event-sgtcul.jpg",
+      "qr": "event-qr/qr-sgtcul1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-11-02",
+      "type": "Self Guided Tour",
+      "status": "Information"
+    },
+    {
+      "title": "Self-guided tour of the North-East Riverine Loop",
+      "description": "Discover the north-eastern coastline & waterways! Snap selfies along the loop & get exclusive prizes at Sengkang Grand Mall.",
+      "image": "event-pictures/event-sgtnerl.jpg",
+      "qr": "event-qr/qr-sgtnerl1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-25",
+      "endDate": "2025-11-02",
+      "type": "Self Guided Tour",
+      "status": "Information"
+    },
+    {
       "title": "NLB Pop-up at Ang Mo Kio Town Centre",
       "description": "Visit our booth at AMK Town Centre to learn about & share views on the new Ang Mo Kio Library!",
       "image": "event-pictures/event-nlbamktc.jpg",
@@ -1125,39 +1180,6 @@
       "status": "remove"
     },
     {
-      "title": "Exploring CleanTech Park in Jurong Innovation District",
-      "description": "Explore CleanTech Park! Snap selfies at 2 checkpoints along the trail & redeem a token at Lot One, while stocks last!",
-      "image": "event-pictures/events-sgtctp.jpg",
-      "qr": "event-qr/qr-sgtctp1.png",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-10-07",
-      "endDate": "2025-10-19",
-      "type": "Self Guided Tour",
-      "status": "remove"
-    },
-    {
-      "title": "Scenic Quarries in the West",
-      "description": "Explore scenic quarries! Snap selfies at 2 checkpoints along the trail & redeem a token at Lot One, while stocks last!",
-      "image": "event-pictures/events-sgtsq.jpg",
-      "qr": "event-qr/qr-sgtsq1.png",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-10-07",
-      "endDate": "2025-10-19",
-      "type": "Self Guided Tour",
-      "status": "remove"
-    },
-     {
-      "title": "The Activity and Lifestyle Corridors of Choa Chu Kang",
-      "description": "Discover Choa Chu Kang! Snap selfies at 2 checkpoints along the trail & redeem a token at Lot One, while stocks last!",
-      "image": "event-pictures/events-sgtcck.jpg",
-      "qr": "event-qr/qr-sgtcck1.png",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-10-07",
-      "endDate": "2025-10-19",
-      "type": "Self Guided Tour",
-      "status": "remove"
-    },
-    {
       "title": "Guided tour of Lively Places Fund - Mural Painting for Dementia Wayfinding",
       "description": "Join a guided tour to explore 10 art pieces that provide effective wayfinding for people with dementia!",
       "image": "event-pictures/event-gtlpfmpdw.jpg",
@@ -1397,7 +1419,7 @@
       "date": "2025-10-21",
       "endDate": "2025-10-21",
       "type": "Guided Tour",
-      "status":"sold-out"
+      "status":"remove"
     },
   {
       "title": "Guided tour of former Combined Operations Room",
@@ -1408,7 +1430,7 @@
       "date": "2025-10-23",
       "endDate": "2025-10-23",
       "type": "Guided Tour",
-      "status":"sold-out"
+      "status":"remove"
     },
   {
       "title": "Guided heritage tour of Kampong Glam",
@@ -1419,7 +1441,7 @@
       "date": "2025-10-23",
       "endDate": "2025-10-23",
       "type": "Guided Tour",
-      "status":"sold-out"
+      "status":"remove"
     },
   {
       "title": "A guided tour of New Bahru",
@@ -1430,7 +1452,7 @@
       "date": "2025-10-24",
       "endDate": "2025-10-24",
       "type": "Guided Tour",
-      "status":"sold-out"
+      "status":"remove"
     },
   {
       "title": "Guided heritage tour of Little India",
@@ -1441,62 +1463,7 @@
       "date": "2025-10-24",
       "endDate": "2025-10-24",
       "type": "Guided Tour",
-      "status":"sold-out"
-    },
-  {
-      "title": "Craft Workshop: Paya Lebar Air Base (PLAB) Edition",
-      "description": "Imagine tomorrow’s towns today! At Sengkang Grand Mall, kids can take on the role as city planners to design future PLAB town.",
-      "image": "event-pictures/event-cwplab.jpg",
-      "qr": "event-qr/qr-plab1.png",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-10-25",
-      "endDate": "2025-11-02",
-      "type": "Workshop",
-      "status": "available"
-    },
-    {
-      "title": "Self-guided tour of Ang Mo Kio (AMK) Heritage Trail",
-      "description": "Discover Ang Mo Kio through a heritage trail. Snap a selfie along the trail and get exclusive prizes at Sengkang Grand Mall!",
-      "image": "event-pictures/event-sgtamkht.jpg",
-      "qr": "event-qr/qr-sgtamkht1.png",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-10-25",
-      "endDate": "2025-11-02",
-      "type": "Self Guided Tour",
-      "status": "Information"
-    },
-    {
-      "title": "Self-guided tour of Hougang Heritage Trail",
-      "description": "Discover Hougang through a heritage trail. Snap a selfie along the trail & get exclusive prizes at Sengkang Grand Mall!",
-      "image": "event-pictures/event-sgthht.jpg",
-      "qr": "event-qr/qr-sgthht1.png",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-10-25",
-      "endDate": "2025-11-02",
-      "type": "Self Guided Tour",
-      "status": "Information"
-    },
-    {
-      "title": "Self-guided tour of the Central Urban Loop",
-      "description": "Discover the neighbourhoods and parks in the Central Urban Loop! Snap selfies & get exclusive prizes at Sengkang Grand Mall.",
-      "image": "event-pictures/event-sgtcul.jpg",
-      "qr": "event-qr/qr-sgtcul1.png",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-10-25",
-      "endDate": "2025-11-02",
-      "type": "Self Guided Tour",
-      "status": "Information"
-    },
-    {
-      "title": "Self-guided tour of the North-East Riverine Loop",
-      "description": "Discover the north-eastern coastline & waterways! Snap selfies along the loop & get exclusive prizes at Sengkang Grand Mall.",
-      "image": "event-pictures/event-sgtnerl.jpg",
-      "qr": "event-qr/qr-sgtnerl1.png",
-      "soldOutQr": "event-qr/qr-sold-out.png",
-      "date": "2025-10-25",
-      "endDate": "2025-11-02",
-      "type": "Self Guided Tour",
-      "status": "Information"
+      "status":"remove"
     },
   {
       "title": "Guided tour of Punggol Sustainability Trail",
@@ -1606,6 +1573,240 @@
       "date": "2025-10-27",
       "endDate": "2025-10-27",
       "type": "Guided Tour",
+      "status": "available"
+    },
+  {
+      "title": "Exploring CleanTech Park in Jurong Innovation District",
+      "description": "Explore CleanTech Park! Snap selfies at 2 checkpoints along the trail & redeem a token at Jurong Point, while stocks last!",
+      "image": "event-pictures/events-sgtctp.jpg",
+      "qr": "event-qr/qr-sgtctp1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-28",
+      "endDate": "2025-11-09",
+      "type": "Self Guided Tour",
+      "status": "information",
+      "featured":true
+    },
+    {
+      "title": "Scenic Quarries in the West",
+      "description": "Explore scenic quarries! Snap selfies at 2 checkpoints along the trail & redeem a token at Jurong Point, while stocks last!",
+      "image": "event-pictures/events-sgtsq.jpg",
+      "qr": "event-qr/qr-sgtsq1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-28",
+      "endDate": "2025-11-09",
+      "type": "Self Guided Tour",
+      "status": "information",
+      "featured":true
+    },
+     {
+      "title": "The Activity and Lifestyle Corridors of Choa Chu Kang",
+      "description": "Discover Choa Chu Kang! Snap selfies at 2 checkpoints along the trail & redeem a token at Jurong Point, while stocks last!",
+      "image": "event-pictures/events-sgtcck.jpg",
+      "qr": "event-qr/qr-sgtcck1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-28",
+      "endDate": "2025-11-09",
+      "type": "Self Guided Tour",
+      "status": "information",
+      "featured":true
+    },
+  {
+      "title": "Punggol Park: Therapeutic Garden activity",
+      "description": "Join our Therapeutic Horticulture Programme: guided gardening sessions to boost wellbeing & find peace through nature.",
+      "image": "event-pictures/events-ppa.jpg",
+      "qr": "event-qr/qr-ppa.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-29",
+      "endDate": "2025-10-29",
+      "type": "Activity",
+      "status": "sold-out"
+    },
+  {
+      "title": "Guided tour of Sengkang West Bus Depot",
+      "description": "Hop on our exclusive Sengkang West Bus Depot tour - Discover how our bus network runs safely, reliably, and efficiently!",
+      "image": "event-pictures/events-gtskwd.jpg",
+      "qr": "event-qr/qr-.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-29",
+      "endDate": "2025-10-29",
+      "type": "Guided Tour",
+      "status": "sold-out"
+    },
+  {
+      "title": "Guided tour of One Punggol",
+      "description": "Explore One Punggol, a hub with seamlessly integrated public services & amenities, including a library & hawker centre!",
+      "image": "event-pictures/event-gtop.jpg",
+      "qr": "event-qr/qr-gtop30oct.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-10-30",
+      "endDate": "2025-10-30",
+      "type": "Guided Tour",
+      "status": "available"
+    },
+  {
+      "title": "Craft Workshop - West Region Edition",
+      "description": "Kids 7-12: Be city planners for a day! Join this fun 1hr workshop to design Singapore with your family.",
+      "image": "event-pictures/events-cw.jpg",
+      "qr": "event-qr/qr-cwwre1nov.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-01",
+      "endDate": "2025-11-01",
+      "type": "Workshop",
+      "status": "available"
+    },
+  {
+     "title": "Through the lens of an Architect: Tour of Sengkang Grand Mall",
+      "description": "Ever wondered how integrated developments come about? Join us on a tour to discover how Sengkang Grand Mall came to life",
+      "image": "event-pictures/events-gtskgm.jpg",
+      "qr": "event-qr/qr-.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-01",
+      "endDate": "2025-11-01",
+      "type": "Guided Tour",
+      "status":"sold-out"
+    },
+  {
+      "title": "Guided tour of Pulau Ubin",
+      "description": "Discover Pulau Ubin's heritage on a 2.2km trail visiting historic sites, from Ubin Volunteer Hub to the Wayang Stage.",
+      "image": "event-pictures/event-gtpu.jpg",
+      "qr": "event-qr/qr-gtpu.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-01",
+      "endDate": "2025-11-01",
+      "type": "Guided Tour",
+      "status": "sold-out"
+    },
+  {
+      "title": "Guided tour of Jurong Innovation District (9AM TO 12PM)",
+      "description": "Tour Jurong Innovation District! See key facilities, upcoming developments & learn about future transport plans.",
+      "image": "event-pictures/events-gtjid.jpg",
+      "qr": "event-qr/qr-hpb.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-01",
+      "endDate": "2025-11-01",
+      "type": "Guided Tour",
+      "status":"sold-out"
+    },
+  {
+      "title": "Guided tour of Jurong Innovation District (1.30PM TO 4.30PM)",
+      "description": "Tour Jurong Innovation District! See key facilities, upcoming developments & learn about future transport plans.",
+      "image": "event-pictures/events-gtjid.jpg",
+      "qr": "event-qr/qr-hpb.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-01",
+      "endDate": "2025-11-01",
+      "type": "Guided Tour",
+      "status":"sold-out"
+    },
+  {
+      "title": "PAssion Wave x SG60: Jurong Lake Discovery (Kayaking)",
+      "description": "Kayak at Jurong Lake Gardens! Explore nature & heritage on a journey through the iconic Chinese & Japanese Gardens.",
+      "image": "event-pictures/events-kayak.jpg",
+      "qr": "event-qr/qr-kayak2nov.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-02",
+      "endDate": "2025-11-02",
+      "type": "Activity",
+      "status":"available"
+    },
+  {
+      "title": "Guided tour of Punggol Sustainability Trail",
+      "description": "Join guided walks to explore smart initiatives at Punggol Northshore!",
+      "image": "event-pictures/events-gtpns.jpg",
+      "qr": "event-qr/qr-gtpst.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-02",
+      "endDate": "2025-11-02",
+      "type": "Guided Tour",
+      "status":"available"
+    },
+  {
+      "title": "Zumba Fitness Workout",
+      "description": "Join a Zumba workout programme & get active with Healthy 365! Find tips & programmes to live a healthier lifestyle.",
+      "image": "event-pictures/events-hpb.avif",
+      "qr": "event-qr/qr-hpb1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-02",
+      "endDate": "2025-11-02",
+      "type": "Activity",
+      "status": "available"
+    },
+  {
+      "title": "Tree Planting at Jurong Central Park",
+      "description": "Contribute to building a City in Nature for future generations to enjoy by planting a tree!",
+      "image": "event-pictures/events-tpjcp.jpg",
+      "qr": "event-qr/qr-tpjcp.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-06",
+      "endDate": "2025-11-06",
+      "type": "Activity",
+      "status": "available"
+    },
+  {
+      "title": "Craft Workshop - West Region Edition",
+      "description": "Kids 7-12: Be city planners for a day! Join this fun 1hr workshop to design Singapore with your family.",
+      "image": "event-pictures/events-cw.jpg",
+      "qr": "event-qr/qr-cwwre8nov.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-08",
+      "endDate": "2025-11-08",
+      "type": "Workshop",
+      "status": "available"
+    },
+  {
+      "title": "Gardeners' Market and Farm Tour by City Sprouts @ West Coast",
+      "description": "Join us for fresh produce & handmade goods at our community market! Experience the kampung spirit whilst shopping.",
+      "image": "event-pictures/events-gmftcs.jpg",
+      "qr": "event-qr/qr-gmftcs.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-08",
+      "endDate": "2025-11-08",
+      "type": "Activity",
+      "status": "available"
+    },
+  {
+      "title": "Guided tour of Chinese Gardens",
+      "description": "Tour the new Chinese Gardens at Jurong Lake! Experience traditional architecture and serene landscapes.",
+      "image": "event-pictures/events-gtcg.jpg",
+      "qr": "event-qr/qr-gtcg.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-08",
+      "endDate": "2025-11-08",
+      "type": "Guided Tour",
+      "status": "available"
+    },
+  {
+      "title": "Reimagining Former Jurong Bird Park and Jurong Hill Workshop",
+      "description": "Come reimagine the future of this area that honours Jurong's industrial heritage!",
+      "image": "event-pictures/events-jbpw.jpg",
+      "qr": "event-qr/qr-jbpw.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-08",
+      "endDate": "2025-11-08",
+      "type": "Workshop",
+      "status": "available"
+    },
+  {
+      "title": "PAssion Wave x SG60: Jurong Lake Discovery (Kayaking)",
+      "description": "Kayak at Jurong Lake Gardens! Explore nature & heritage on a journey through the iconic Chinese & Japanese Gardens.",
+      "image": "event-pictures/events-kayak.jpg",
+      "qr": "event-qr/qr-kayak9nov.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-09",
+      "endDate": "2025-11-09",
+      "type": "Activity",
+      "status":"available"
+    },
+  {
+      "title": "Zumba Fitness Workout",
+      "description": "Join a Zumba workout programme & get active with Healthy 365! Find tips & programmes to live a healthier lifestyle.",
+      "image": "event-pictures/events-hpb.avif",
+      "qr": "event-qr/qr-hpb1.png",
+      "soldOutQr": "event-qr/qr-sold-out.png",
+      "date": "2025-11-09",
+      "endDate": "2025-11-09",
+      "type": "Activity",
       "status": "available"
     }
   ]
