@@ -1719,7 +1719,7 @@
       "date": "2025-11-02",
       "endDate": "2025-11-02",
       "type": "Guided Tour",
-      "status":"available"
+      "status":"sold-out"
     },
   {
       "title": "Zumba Fitness Workout",
@@ -1741,7 +1741,7 @@
       "date": "2025-11-06",
       "endDate": "2025-11-06",
       "type": "Activity",
-      "status": "available"
+      "status": "sold-out"
     },
   {
       "title": "Craft Workshop - West Region Edition",
